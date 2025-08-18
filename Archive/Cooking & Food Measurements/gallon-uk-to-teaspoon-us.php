@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Convert Gallon (UK) to Teaspoon (US) easily with this free online converter. Get accurate results instantly for your cooking, science, or daily use." name="description"/>
+<meta content="gallon uk to teaspoon us, convert gallon uk to teaspoon us, Gallon (UK) in Teaspoon (US), gallon-uk to teaspoon-us calculator" name="keywords"/>
+<title>Gallon (UK) to Teaspoon (US) | Free Conversion Tool</title>
+<link href="../css/sub_main_pages.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<?php include '../header.php'; ?>
+<div class="container">
+<div class="main-wrapper">
+<div class="content-section">
+<div class="converter-section">
+<h2>Gallon (UK) to Teaspoon (US)</h2>
+<div class="converter-tool">
+<div class="input-group">
+<label for="from-value">Gallon (UK):</label>
+<input id="from-value" oninput="convertUnits()" placeholder="Enter Gallon (UK)" step="0.01" type="number" value="1"/>
+</div>
+<button class="swap-btn" onclick="window.location.href='teaspoon-us-to-gallon-uk.php'" title="Teaspoon (US) to Gallon (UK)">
+<i class="fas fa-exchange-alt"></i>
+</button>
+<div class="input-group">
+<label for="to-value">Teaspoon (US):</label>
+<input id="to-value" placeholder="Result in Teaspoon (US)" readonly="readonly" type="text"/>
+</div>
+</div>
+<div class="button-group">
+<button onclick="convertUnits()">Calculate</button>
+<button onclick="clearFields()">Clear</button>
+</div>
+</div>
+<div class="info-section">
+<div class="about-section">
+<h3>About Gallon (UK) to Teaspoon (US) Conversion</h3>
+<p>Gallon (UK) and Teaspoon (US) are commonly used in volume conversions. Use this tool to get precise results instantly for cooking, science, and everyday tasks.</p>
+<p><strong>Formula:</strong> 1 Gallon (UK) = 5.123000 Teaspoon (US) | 1 Teaspoon (US) = 0.195198 Gallon (UK)</p>
+<p><strong>Example:</strong> Convert 2 Gallon (UK) to Teaspoon (US): 2 × 5.123000 = 10.246000 Teaspoon (US)</p>
+</div>
+</div>
+
+<div class="info-section">
+<h3>Popular Cooking &amp; Food Measurements Volume Conversions</h3>
+<ul>
+<li><a href="teaspoon-us-to-tablespoon-us.php">Teaspoon (US) to Tablespoon (US)</a></li>
+<li><a href="tablespoon-us-to-cup-us.php">Tablespoon (US) to Cup (US)</a></li>
+<li><a href="cup-us-to-fluid-ounce-us.php">Cup (US) to Fluid Ounce (US)</a></li>
+<li><a href="cup-us-to-milliliter-ml.php">Cup (US) to Milliliter (mL)</a></li>
+<li><a href="pint-us-to-cup-us.php">Pint (US) to Cup (US)</a></li>
+<li><a href="quart-us-to-pint-us.php">Quart (US) to Pint (US)</a></li>
+<li><a href="gallon-us-to-quart-us.php">Gallon (US) to Quart (US)</a></li>
+<li><a href="fluid-ounce-us-to-milliliter-ml.php">Fluid Ounce (US) to Milliliter (mL)</a></li>
+<li><a href="liter-l-to-milliliter-ml.php">Liter (L) to Milliliter (mL)</a></li>
+<li><a href="gallon-us-to-liter-l.php">Gallon (US) to Liter (L)</a></li>
+<li><a href="teaspoon-uk-to-tablespoon-uk.php">Teaspoon (UK) to Tablespoon (UK)</a></li>
+<li><a href="tablespoon-uk-to-cup-uk.php">Tablespoon (UK) to Cup (UK)</a></li>
+<li><a href="cup-uk-to-fluid-ounce-uk.php">Cup (UK) to Fluid Ounce (UK)</a></li>
+<li><a href="pint-uk-to-cup-uk.php">Pint (UK) to Cup (UK)</a></li>
+<li><a href="gallon-uk-to-liter-l.php">Gallon (UK) to Liter (L)</a></li>
+<li><a href="cup-us-to-cup-uk.php">Cup (US) to Cup (UK)</a></li>
+<li><a href="fluid-ounce-us-to-fluid-ounce-uk.php">Fluid Ounce (US) to Fluid Ounce (UK)</a></li>
+<li><a href="gallon-us-to-gallon-uk.php">Gallon (US) to Gallon (UK)</a></li>
+<li><a href="milliliter-ml-to-cubic-centimeter.php">Milliliter (mL) to Cubic Centimeter</a></li>
+<li><a href="liter-l-to-cubic-centimeter.php">Liter (L) to Cubic Centimeter</a></li>
+</ul>
+</div><div class="info-section">
+<h3>Convert Gallon (UK) to Other Volume Units</h3>
+<ul><li><a href="gallon-uk-to-teaspoon-us.php">Gallon (UK) to Teaspoon (US)</a></li>
+<li><a href="gallon-uk-to-tablespoon-us.php">Gallon (UK) to Tablespoon (US)</a></li>
+<li><a href="gallon-uk-to-fluid-ounce-us.php">Gallon (UK) to Fluid Ounce (US)</a></li>
+<li><a href="gallon-uk-to-cup-us.php">Gallon (UK) to Cup (US)</a></li>
+<li><a href="gallon-uk-to-pint-us.php">Gallon (UK) to Pint (US)</a></li>
+<li><a href="gallon-uk-to-quart-us.php">Gallon (UK) to Quart (US)</a></li>
+<li><a href="gallon-uk-to-gallon-us.php">Gallon (UK) to Gallon (US)</a></li>
+<li><a href="gallon-uk-to-milliliter-ml.php">Gallon (UK) to Milliliter (mL)</a></li>
+<li><a href="gallon-uk-to-liter-l.php">Gallon (UK) to Liter (L)</a></li>
+<li><a href="gallon-uk-to-teaspoon-uk.php">Gallon (UK) to Teaspoon (UK)</a></li>
+<li><a href="gallon-uk-to-tablespoon-uk.php">Gallon (UK) to Tablespoon (UK)</a></li>
+<li><a href="gallon-uk-to-fluid-ounce-uk.php">Gallon (UK) to Fluid Ounce (UK)</a></li>
+<li><a href="gallon-uk-to-cup-uk.php">Gallon (UK) to Cup (UK)</a></li>
+<li><a href="gallon-uk-to-pint-uk.php">Gallon (UK) to Pint (UK)</a></li>
+<li><a href="gallon-uk-to-quart-uk.php">Gallon (UK) to Quart (UK)</a></li>
+<li><a href="gallon-uk-to-cubic-centimeter.php">Gallon (UK) to Cubic Centimeter</a></li>
+</ul>
+</div>
+</div>
+<div class="ad-section">
+<h3>Advertisement</h3>
+<div class="ad-placeholder">Ad Space (350x280)</div>
+<?php include '../drawer_menu.php'; ?>
+</div>
+</div>
+</div>
+<?php include '../footer.php'; ?>
+<script>
+function convertUnits() {
+    var inputValue = parseFloat(document.getElementById("from-value").value);
+    if (!isNaN(inputValue)) {
+        var result = inputValue * 5.123;
+        document.getElementById("to-value").value = result.toFixed(6);
+    } else {
+        document.getElementById("to-value").value = "";
+    }
+}
+function clearFields() {
+    document.getElementById("from-value").value = "";
+    document.getElementById("to-value").value = "";
+}
+</script>
+</body>
+</html>

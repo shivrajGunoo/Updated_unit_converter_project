@@ -1,0 +1,10 @@
+
+.dual-column-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.dual-column-sections > div {
+  flex: 1 1 45%;
+}

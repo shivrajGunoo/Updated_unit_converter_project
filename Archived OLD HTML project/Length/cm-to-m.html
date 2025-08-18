@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Convert Centimeters to Meters easily with this free online conversion tool.">
+  <meta name="keywords" content="cm to m, centimeter to meter, length conversion">
+  <title>Centimeters to Meters Converter</title>
+  <link rel="stylesheet" href="../css/sub_main_pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <object class="inlcuded-header" data="../header.html" style="width:100%;"></object>
+
+  <div class="container">
+    <div class="main-wrapper">
+      <div class="content-section">
+        <div class="converter-section">
+          <h2>Centimeters to Meters</h2>
+          <div class="converter-tool">
+            <div class="input-group">
+              <label for="from-value">Centimeters</label>
+              <input type="number" id="from-value" value="100" step="0.01" placeholder="Enter cm">
+            </div>
+            <button class="swap-btn" onclick="window.location.href='m-to-cm.html'" title="Convert Meters to Centimeters">
+              <i class="fas fa-exchange-alt"></i>
+            </button>
+            <div class="input-group">
+              <label for="to-value">Meters</label>
+              <input type="text" id="to-value" readonly placeholder="Result in m">
+            </div>
+          </div>
+          <div class="button-group">
+            <button onclick="convertCmToM()">Calculate</button>
+            <button onclick="clearFields()">Clear</button>
+          </div>
+        </div>
+
+        <div class="info-section">
+          <h3>About cm to m Conversion</h3>
+          <p>Centimeters and meters are metric units used to measure length. The conversion from cm to m is straightforward.</p>
+          <p><strong>Formula:</strong> 1 cm = 0.01 m &nbsp;&nbsp;|&nbsp;&nbsp; 1 m = 100 cm</p>
+          <p><strong>Example:</strong> Convert 150 cm to meters: 150 cm × 0.01 = 1.5 m</p>
+        </div>
+
+        <div class="info-section">
+          <h3>Popular Length Unit Conversions</h3>
+          <ul>
+            <li><a href="cm-to-inches.html" >cm to inches</a></li> 
+            <li><a href="inches-to-cm.html">inches to cm</a></li>
+            <li><a href="mm-to-inches.html">mm to inches</a> </li>
+            <li><a href="inches-to-mm.html">inches to mm</a></li>
+            <li><a href="meters-to-feet.html">meters to feet</a></li>
+            <li><a href="feet-to-meters.html">feet to meters</a></li>
+            <li><a href="km-to-miles.html">km to miles</a></li>
+            <li><a href="miles-to-km.html">miles to km</a></li>
+            <li><a href="cm-to-feet.html">cm to feet</a></li>
+            <li><a href="feet-to-cm.html">feet to cm</a></li>
+            <li><a href="inches-to-feet.html">inches to feet</a></li>
+            <li><a href="feet-to-inches.html">feet to inches</a></li>
+            <li><a href="meters-to-yards.html">meters to yards</a></li>
+            <li><a href="yards-to-meters.html">yards to meters</a></li>
+            <li><a href="mm-to-cm.html">mm to cm</a></li>
+            <li><a href="cm-to-mm.html">cm to mm</a></li>
+            <li><a href="cm-to-m.html">cm to m</a></li>
+            <li><a href="m-to-cm.html">m to cm</a></li>
+            <li><a href="cm-to-km.html">cm to km</a></li>
+            <li><a href="km-to-cm.html">km to cm</a></li>
+            <li><a href="mm-to-feet.html">mm to feet</a></li>
+            <li><a href="feet-to-mm.html">feet to mm</a></li>
+            <li><a href="meters-to-miles.html">meters to miles</a>
+            <li><a href="miles-to-meters.html">miles to meters</a></li>
+            <li><a href="feet-to-miles.html">feet to miles</a></li>
+            <li><a href="miles-to-feet.html">miles to feet</a></li>
+            <li><a href="yards-to-feet.html">yards to feet</a></li>
+            <li><a href="feet-to-yards.html">feet to yards</a></li>
+            <li><a href="inches-to-meters.html">inches to meters</a></li>
+            <li><a href="meters-to-inches.html">meters to inches</a></li>
+            <li><a href="mm-to-m.html">mm to m</a></li>
+            <li><a href="m-to-mm.html">m to mm</a></li>
+            <li><a href="km-to-m.html">km to m</a></li>
+            <li><a href="m-to-km.html">m to km</a></li>
+            <li><a href="inches-to-yards.html">inches to yards</a></li>
+            <li><a href="yards-to-inches.html">yards to inches</a></li>
+            <li><a href="yards-to-miles.html">yards to miles</a></li>
+            <li><a href="miles-to-yards.html">miles to yards</a></li>
+          </ul>
+        </div>
+
+        <div class="info-section">
+          <h3>Convert Centimeter to Other Length Units</h3>
+          <ul>
+            <li><a href="cm-to-km.html">cm to km</a></li>
+            <li><a href="cm-to-mm.html">cm to mm</a></li>
+            <li><a href="cm-to-nanometer.html">cm to nanometer</a></li>
+            <li><a href="cm-to-yard.html">cm to yard</a></li>
+            <li><a href="cm-to-inches.html">cm to inches</a></li>
+            <li><a href="cm-to-feet.html">cm to feet</a></li>
+            <li><a href="cm-to-light-year.html">cm to light year</a></li>
+            <li><a href="cm-to-break.html">cm to break</a></li>
+            <li><a href="cm-to-gigameter.html">cm to gigameter</a></li>
+            <li><a href="cm-to-megameter.html">cm to megameter</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ad-section">
+        <h3>Advertisement</h3>
+        <div class="ad-placeholder">Ad Space (350x280)</div>
+        <object class="drawer_menu" data="../drawer_menu.html" style="width:100%; height:70%; overflow:auto; border:none;"></object>
+      </div>
+    </div>
+  </div>
+
+  <object class="inlcuded-footer" data="../footer.html" style="width:100%;"></object>
+
+  <script>
+    function convertCmToM() {
+      const cm = parseFloat(document.getElementById('from-value').value) || 0;
+      document.getElementById('to-value').value = (cm * 0.01).toFixed(4);
+    }
+
+    function clearFields() {
+      document.getElementById('from-value').value = '';
+      document.getElementById('to-value').value = '';
+    }
+
+    document.addEventListener('DOMContentLoaded', convertCmToM);
+  </script>
+</body>
+</html>

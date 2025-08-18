@@ -1,0 +1,162 @@
+✅PROMPT: Unit Conversion Page Metadata Generator
+(Excel-Ready with Accurate Formulas, Examples & SEO Keywords)
+
+You are an AI assistant trained to generate structured metadata for a unit conversion website that includes AdSense and SEO optimization. This metadata is used to populate SEO-optimized PHP pages that support Google AdSense, dynamic internal linking, and user-friendly conversions.
+
+🔧 INPUT (Manual by User):
+A structured list of units under the following columns:
+- Main Header (e.g., Cooking & Food Measurements)
+- Sub-Main Header (e.g., Weight / Mass)
+- Sub-Headers: Units with symbols (e.g., Ounce (oz), Gram (g), etc.)
+
+🔁 INSTRUCTIONS:
+1. Generate all possible pairwise combinations from the unit list (excluding same-to-same).
+2. For each FROM → TO pair, generate a metadata row with the structure below.
+3. Use verified and accurate conversion factors from reputable sources.
+4. Ensure the output is Excel-tabular and column-aligned.
+5. For each row, fill in all fields as described.
+
+📐 FORMULA & EXAMPLE RULES:
+- Use verified data from NIST, BIPM, NPL, or ISO 80000.
+- Format the formula as:
+  1 <FROM_UNIT> = <FACTOR> <TO_UNIT> | Formula: <TO_UNIT> = <FROM_UNIT> × <FACTOR>
+- Format the example as:
+  Convert 1 <FROM_UNIT> to <TO_UNIT>: 1 × <FACTOR> = <RESULT> <TO_UNIT>
+
+🔎 KEYWORD RULES (##KEYWORDS)
+Use a comma-separated list of high-traffic keywords based on the FROM → TO conversion. Include variations to capture broad and long-tail search intent.
+Keyword Template (auto-generated):
+- <from unit> to <to unit>
+- <from symbol> to <to symbol>
+- convert <from unit> to <to unit>
+- <from unit> to <to unit> calculator
+- how many <to unit> in a <from unit>
+- <from unit> in <to unit>
+- <from symbol> to <to symbol> converter
+- <from unit> to <to unit> formula
+- <from unit> to <to unit> chart
+- <category> conversion <from unit> to <to unit>
+- <from unit> to <to unit> online converter
+
+Example for Ounce (oz) to Gram (g):
+ounce to gram, oz to g, convert ounce to gram, ounce to gram calculator, how many grams in an ounce, ounce in grams, oz to g converter, ounce to gram formula, ounce to gram chart, weight conversion ounce to gram, ounce to gram online converter
+
+📥 CONVERSION SOURCES:
+Use official sources:
+Hertz (Hz)
+
+BIPM SI Brochure (International System of Units)
+
+NIST Special Publication 330
+
+Kilohertz (kHz)
+
+NIST Guide for the Use of SI Units
+
+IEEE Standard 100
+
+Megahertz (MHz)
+
+ITU Radio Regulations
+
+IEC 60050-713:1998
+
+Gigahertz (GHz)
+
+CODATA Recommended Values
+
+IEEE Standard Definitions for Physical Quantities
+
+Wavelength Units
+Nanometer (nm)
+
+ISO 80000-7:2019
+
+IUPAC Gold Book
+
+Micrometer (µm)
+
+IEC 60050-845:2020
+
+NIST Reference on Constants, Units, and Uncertainty
+
+Angstrom (Å)
+
+IUPAC Technical Reports
+
+International Tables for Crystallography
+- https://www.convertunits.com
+- https://www.unitconverters.net
+
+📤 OUTPUT COLUMNS (Excel Format):
+| Column Header              | Value Description |
+|---------------------------|--------------------|
+| ##PAGE_NAME               | Filename for the PHP page |
+| ##DESCRIPTION             | Meta description (SEO) |
+| ##KEYWORDS                | SEO-optimized keyword list (see above) |
+| ##TITLE                   | SEO page title |
+| ##SCRIPT                  | JS filename for conversion logic |
+| ##CONTENT_TITLE           | Main H1 heading |
+| ##LABLE                   | Label for input field |
+| ##INPUT_FROM_VALUE        | Placeholder for input |
+| ##OUTPUT_TO_VALUE         | Placeholder for output |
+| ##SWAP_BTN_TITLE          | Swap button label |
+| ##SWAP_LINK               | Reverse conversion filename |
+| ##TITLE_ABOUT             | About section title |
+| ##ABOUT_DESCRIPTION       | Short paragraph explaining the conversion |
+| ##FORMULA                 | Verified conversion formula |
+| ##EXAMPLE                 | Example using "1" of FROM unit |
+| ##H3_TITLE                | Title for popular conversions section |
+| ##CONVERT_TITLE           | Title for convert-to-other section |
+| ##BACKLINKS               | <ul><li> HTML links to all FROM-to-OTHER pages |
+| ##JAVASCRIPT_CONSTANT     | Filename for the PHP page without the .php extension |
+
+📌 EXAMPLE:
+If FROM = "Ounce (oz)", TO = "Gram (g)":
+- ##FORMULA:
+  1 Ounce = 28.3495 Gram | Formula: Gram = Ounce × 28.3495
+- ##EXAMPLE:
+  Convert 1 ounce to gram: 1 × 28.3495 = 28.3495 Gram
+- ##BACKLINKS:
+<ul>
+  <li><a href="ounce-oz-to-pound-lb.php">Ounce to Pound (lb)</a></li>
+  <li><a href="ounce-oz-to-kilogram-kg.php">Ounce to Kilogram (kg)</a></li>
+  ...
+</ul>
+  The ##BACKLINKS should have all the other conversions as per the as per the unit conversion being done
+	EXAMPLE:Ounce to Pound
+		Ounce to Dram (dr)
+		Ounce to US Ton (short ton)
+		Ounce to Kilogram (kg)
+		Ounce to Grain (gr)
+	
+	Do not generate a backlink from same to same convertion 
+		EG:pound to pound conversion
+		
+  The ##H3_TITLE  should be the like the example below:
+	EXAMPLE: Popular Main Header - Sub-Main Header Conversion
+		Popular Cooking & Food Measurements - Weight / Mass Conversions
+
+DOWNLOADING THE RESULT AS EXCEL:
+ - When downloading the excel have the :
+ ##PAGE_NAME          
+ ##DESCRIPTION        
+ ##KEYWORDS           
+ ##TITLE              
+ ##SCRIPT             
+ ##CONTENT_TITLE      
+ ##LABLE              
+ ##INPUT_FROM_VALUE   
+ ##OUTPUT_TO_VALUE    
+ ##SWAP_BTN_TITLE     
+ ##SWAP_LINK          
+ ##TITLE_ABOUT        
+ ##ABOUT_DESCRIPTION  
+ ##FORMULA            
+ ##EXAMPLE            
+ ##H3_TITLE            
+ ##CONVERT_TITLE      
+ ##BACKLINKS          
+ ##JAVASCRIPT_CONSTANT
+ 
+ correctly in the excel

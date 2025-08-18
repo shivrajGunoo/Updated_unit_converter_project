@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Convert petamol/second to kilomol/second with accurate formulas, examples, and instant results. Molar flow rate conversion made easy."/>
+    <meta name="keywords" content="petamol/second to kilomol/second, convert petamol/second to kilomol/second, petamol/second to kilomol/second calculator, how many kilomol/second in a petamol/second, petamol/second in kilomol/second, petamol/second to kilomol/second converter, petamol/second to kilomol/second formula, petamol/second to kilomol/second chart, molar conversion petamol/second to kilomol/second, petamol/second to kilomol/second online converter"/>
+    <title>petamol/second to kilomol/second Conversion - Molar Flow Rate Converter</title>
+    <link href="../css/sub_main_pages.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <script src="conversion_javascript.js"></script>
+</head>
+<body>
+    <?php include '../header.php'; ?>
+    <div class="container">
+        <div class="main-wrapper">
+            <div class="content-section">
+                <div class="converter-section">
+                    <h2>petamol/second to kilomol/second Converter</h2>
+                    <div class="converter-tool">
+                        <div class="input-group">
+                            <label for="from-value">Enter petamol/second</label>
+                            <input id="from-value" oninput="performConversion('petamol-second-to-kilomol-second')" placeholder="petamol/second" step="0.01" type="number" value="1"/>
+                        </div>
+                        <button class="swap-btn" onclick="window.location.href='kilomol-second-to-petamol-second.php'" title="Swap Units">
+                            <i class="fas fa-exchange-alt"></i>
+                        </button>
+                        <div class="input-group">
+                            <label for="to-value">kilomol/second</label>
+                            <input id="to-value" placeholder="kilomol/second" readonly="readonly" type="text"/>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="performConversion('petamol-second-to-kilomol-second')">Calculate</button>
+                        <button onclick="clearFields()">Clear</button>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <div class="about-section">
+                        <h3>About petamol/second to kilomol/second Conversion - Molar Flow Rate Converter</h3>
+                        <p>Learn how to convert petamol/second to kilomol/second easily. Understand the formula and see real-world examples of molar flow rate conversions.</p>
+                        <p><strong>Formula:</strong> petamol/second  = 1000000000000  kilomol/second</p>
+                        <!--<p><strong>Example:</strong> Convert 1 petamol/second to kilomol/second: 1 × 1000000000000 = 1000000000000 kilomol/second</p>!-->
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h3>Popular Fluids Converters Molar Conversions</h3>
+                    <ul>
+                        <li><a href="mol-second-to-kilomol-second.php">mol/second to kilomol/second</a></li>
+<li><a href="mol-second-to-millimol-second.php">mol/second to millimol/second</a></li>
+<li><a href="mol-minute-to-mol-second.php">mol/minute to mol/second</a></li>
+<li><a href="kilomol-hour-to-mol-second.php">kilomol/hour to mol/second</a></li>
+<li><a href="mol-second-to-mol-minute.php">mol/second to mol/minute</a></li>
+<li><a href="millimol-second-to-mol-second.php">millimol/second to mol/second</a></li>
+<li><a href="mol-hour-to-mol-second.php">mol/hour to mol/second</a></li>
+<li><a href="mol-day-to-mol-second.php">mol/day to mol/second</a></li>
+ 
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>Convert petamol/second to Other Molar Units</h3>
+                    <li><a href="petamol-second-to-mol-second.php">petamol/second to mol/second</a></li>
+<li><a href="petamol-second-to-examol-second.php">petamol/second to examol/second</a></li>
+<li><a href="petamol-second-to-teramol-second.php">petamol/second to teramol/second</a></li>
+<li><a href="petamol-second-to-gigamol-second.php">petamol/second to gigamol/second</a></li>
+<li><a href="petamol-second-to-megamol-second.php">petamol/second to megamol/second</a></li>
+<li><a href="petamol-second-to-kilomol-second.php">petamol/second to kilomol/second</a></li>
+<li><a href="petamol-second-to-hectomol-second.php">petamol/second to hectomol/second</a></li>
+<li><a href="petamol-second-to-dekamol-second.php">petamol/second to dekamol/second</a></li>
+<li><a href="petamol-second-to-decimol-second.php">petamol/second to decimol/second</a></li>
+<li><a href="petamol-second-to-centimol-second.php">petamol/second to centimol/second</a></li>
+<li><a href="petamol-second-to-millimol-second.php">petamol/second to millimol/second</a></li>
+<li><a href="petamol-second-to-micromol-second.php">petamol/second to micromol/second</a></li>
+<li><a href="petamol-second-to-nanomol-second.php">petamol/second to nanomol/second</a></li>
+<li><a href="petamol-second-to-picomol-second.php">petamol/second to picomol/second</a></li>
+<li><a href="petamol-second-to-femtomol-second.php">petamol/second to femtomol/second</a></li>
+<li><a href="petamol-second-to-attomol-second.php">petamol/second to attomol/second</a></li>
+<li><a href="petamol-second-to-mol-minute.php">petamol/second to mol/minute</a></li>
+<li><a href="petamol-second-to-mol-hour.php">petamol/second to mol/hour</a></li>
+<li><a href="petamol-second-to-mol-day.php">petamol/second to mol/day</a></li>
+<li><a href="petamol-second-to-millimol-minute.php">petamol/second to millimol/minute</a></li>
+<li><a href="petamol-second-to-millimol-hour.php">petamol/second to millimol/hour</a></li>
+<li><a href="petamol-second-to-millimol-day.php">petamol/second to millimol/day</a></li>
+<li><a href="petamol-second-to-kilomol-minute.php">petamol/second to kilomol/minute</a></li>
+<li><a href="petamol-second-to-kilomol-hour.php">petamol/second to kilomol/hour</a></li>
+<li><a href="petamol-second-to-kilomol-day.php">petamol/second to kilomol/day</a></li>
+                </div>
+            </div>
+            <div class="ad-section">
+                <h3>Advertisement</h3>
+                <div class="ad-placeholder">Ad Space (350x280)</div>
+                <?php include '../drawer_menu.php'; ?>
+            </div>
+        </div>
+    </div>
+    <?php include '../footer.php'; ?>
+</body>
+</html>

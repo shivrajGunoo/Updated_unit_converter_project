@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Engineering & Technical Conversions · Length</title>
+  <meta name="description" content="Convert a value from any listed length unit to all other length units at once. Single-file HTML with embedded JavaScript.">
+    <style>
+    body { font-family: Arial, sans-serif; background: #f7f9fc; color: #222; }
+    .container { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+    h1 { margin-top: 0; }
+    .controls { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+    input, select, button { padding: 8px; border-radius: 4px; border: 1px solid #ccc; }
+    button { cursor: pointer; background: #007bff; color: white; border: none; }
+    button:hover { background: #0056b3; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="title">
+      <div class="kicker">Engineering & Technical Conversions</div>
+      <h1>Length Converter</h1>
+      <div class="subtitle">Enter a value, choose the source unit, and see conversions to <strong>all other listed units</strong>.</div>
+    </div>
+
+    <div class="card">
+      <div class="controls">
+        <div class="grid">
+          <div>
+            <label class="label" for="value">Value</label>
+            <input id="value" class="input" type="number" inputmode="decimal" step="any" placeholder="e.g. 1" value="1" />
+          </div>
+          <div>
+            <label class="label" for="fromUnit">From unit</label>
+            <select id="fromUnit"></select>
+          </div>
+          <div>
+            <label class="label" for="doConvert">&nbsp;</label>
+            <button id="doConvert" class="btn primary">Convert</button>
+          </div>
+        </div>
+        <div class="meta">
+          <span class="badge"><span class="dot"></span><span id="unitCount">—</span></span>
+          <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
+            <label class="label" for="filter" style="margin:0">Filter</label>
+            <input id="filter" class="input" type="text" placeholder="Type to filter units…" style="width:240px" />
+          </div>
+        </div>
+      </div>
+
+      <table class="results" aria-describedby="unitCount">
+        <thead><tr><th style="width:42%">Unit</th><th>Value</th></tr></thead>
+        <tbody id="tbody"><tr><td colspan="2" class="empty">Waiting for input…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="footer">Single-file build. Paste/keep the <code>conversionFactors</code> object below. The page will also work with only <code>meter</code>↔unit pairs by chaining via meters.</div>
+  </div>
+
+  <script>
+  // ================== 1) YOUR FACTOR MAP (PASTE FULL OBJECT HERE) ==================
+  // Paste your full map from conversion_javascript.js here. A tiny demo subset is included.
+  const conversionFactors = {
+    'meter-to-kilometer': 0.001,
+    'kilometer-to-meter': 1000,
+    'meter-to-centimeter': 100,
+    'centimeter-to-meter': 0.01,
+    'meter-to-millimeter': 1000,
+    'millimeter-to-meter': 0.001,
+    'meter-to-inch': 39.3700787402,
+    'inch-to-meter': 0.0254,
+    'meter-to-foot': 3.28083989501,
+    'foot-to-meter': 0.3048,
+    'meter-to-yard': 1.09361329834,
+    'yard-to-meter': 0.9144,
+    'meter-to-mile': 0.000621371192237,
+    'mile-to-meter': 1609.344,
+    'meter-to-light-year': 1.05700423859e-16,
+    'light-year-to-meter': 9.4607e+15,
+    'meter-to-nautical-mile-international': 0.000539956803456,
+    'nautical-mile-international-to-meter': 1852,
+    'meter-to-angstrom': 1e10,
+    'angstrom-to-meter': 1e-10
+    // ... paste the rest of your mapping here ...
+  };
+
+  // ================== 2) CANONICAL LABELS & SLUGS (EXACTLY YOUR LIST) ==================
+  const LABELS = [
+    'Meter','Kilometer','Decimeter','Centimeter','Millimeter','Micrometer','Nanometer','Mile','Yard','Foot','Inch','Light Year','Break','Exameter','Petameter','Terameter','Gigameter','Megameter','Hectometer','Dekameter','Micron','Picometer','Femtometer','Attometer','Megaparsec','Kiloparsec','Parsec','Astronomical Unit','League','Nautical League (UK)','Nautical League (int.)','League (statute)','Nautical Mile (UK)','Nautical Mile (international)','Mile (statute)','Mile (US Survey)','Kiloyard','Furlong','Furlong (US Survey)','Chain','Chain (US Survey)','Rope','Rod','Rod (US Survey)','Perch','Pole','Fathom','Fathom (US Survey)','Ell','Foot (US Survey)','Link','Link (US Survey)','Cubit (UK)','Hand','Span (cloth)','Finger (cloth)','Nail (cloth)','Inch (US Survey)','Barleycorn','Mil','Microinch','Angstrom','X-unit','Fermi','Arpent','Pica','Point','Twip','Aln','Famn','Caliber','Centiinch','Ken','Russian Archin','Roman Actus','Vara De Tarea','Vara Conuquera','Vara Castellana','Cubit (Greek)','Long Reed','Reed','Long Cubit','Handbreadth','Fingerbreadth','Planck Length','Electron Radius (classical)','Bohr Radius','Earth\'s Equatorial Radius','Earth\'s Polar Radius','Earth\'s Distance From','Mile (Roman)'
+  ];
+
+  const labelToSlug = new Map([
+    ['Meter','meter'],['Kilometer','kilometer'],['Decimeter','decimeter'],['Centimeter','centimeter'],['Millimeter','millimeter'],
+    ['Micrometer','micrometer'],['Nanometer','nanometer'],['Mile','mile'],['Yard','yard'],['Foot','foot'],['Inch','inch'],
+    ['Light Year','light-year'],['Break','break'],['Exameter','exameter'],['Petameter','petameter'],['Terameter','terameter'],
+    ['Gigameter','gigameter'],['Megameter','megameter'],['Hectometer','hectometer'],['Dekameter','dekameter'],['Micron','micron'],
+    ['Picometer','picometer'],['Femtometer','femtometer'],['Attometer','attometer'],['Megaparsec','megaparsec'],['Kiloparsec','kiloparsec'],
+    ['Parsec','parsec'],['Astronomical Unit','astronomical-unit'],['League','league'],['Nautical League (UK)','nautical-league-uk'],
+    ['Nautical League (int.)','nautical-league-int.'],['League (statute)','league-statute'],['Nautical Mile (UK)','nautical-mile-uk'],
+    ['Nautical Mile (international)','nautical-mile-international'],['Mile (statute)','mile-statute'],['Mile (US Survey)','mile-us-survey'],
+    ['Kiloyard','kiloyard'],['Furlong','furlong'],['Furlong (US Survey)','furlong-us-survey'],['Chain','chain'],['Chain (US Survey)','chain-us-survey'],
+    ['Rope','rope'],['Rod','rod'],['Rod (US Survey)','rod-us-survey'],['Perch','perch'],['Pole','pole'],['Fathom','fathom'],
+    ['Fathom (US Survey)','fathom-us-survey'],['Ell','ell'],['Foot (US Survey)','foot-us-survey'],['Link','link'],['Link (US Survey)','link-us-survey'],
+    ['Cubit (UK)','cubit-uk'],['Hand','hand'],['Span (cloth)','span-cloth'],['Finger (cloth)','finger-cloth'],['Nail (cloth)','nail-cloth'],
+    ['Inch (US Survey)','inch-us-survey'],['Barleycorn','barleycorn'],['Mil','mil'],['Microinch','microinch'],['Angstrom','angstrom'],
+    ['X-unit','x-unit'],['Fermi','fermi'],['Arpent','arpent'],['Pica','pica'],['Point','point'],['Twip','twip'],['Aln','aln'],
+    ['Famn','famn'],['Caliber','caliber'],['Centiinch','centiinch'],['Ken','ken'],['Russian Archin','russian-archin'],['Roman Actus','roman-actus'],
+    ['Vara De Tarea','vara-de-tarea'],['Vara Conuquera','vara-conuquera'],['Vara Castellana','vara-castellana'],['Cubit (Greek)','cubit-greek'],
+    ['Long Reed','long-reed'],['Reed','reed'],['Long Cubit','long-cubit'],['Handbreadth','handbreadth'],['Fingerbreadth','fingerbreadth'],
+    ['Planck Length','planck-length'],['Electron Radius (classical)','electron-radius-classical'],['Bohr Radius','bohr-radius'],
+    ["Earth's Equatorial Radius",'earths-equatorial-radius'],["Earth's Polar Radius",'earths-polar-radius'],["Earth's Distance From",'earths-distance-from'],
+    ['Mile (Roman)','mile-roman']
+  ]);
+
+  // ================== 3) BUILD HELPER MAPS via METER ==================
+  const meterTo = new Map();   // unit slug -> factor for 1 meter to that unit
+  const toMeter = new Map();   // unit slug -> factor for 1 unit to meters
+  for (const [k, f] of Object.entries(conversionFactors)) {
+    const m1 = k.match(/^meter-to-(.+)$/);
+    const m2 = k.match(/^(.+)-to-meter$/);
+    if (m1) meterTo.set(m1[1], f);
+    if (m2) toMeter.set(m2[1], f);
+  }
+  meterTo.set('meter', 1); toMeter.set('meter', 1);
+
+  // ================== 4) UI WIRING ==================
+  const $ = (s)=>document.querySelector(s);
+  const tbody = $('#tbody');
+  const unitCount = $('#unitCount');
+
+  function buildFromDropdown(){
+    const sel = $('#fromUnit');
+    sel.innerHTML = '';
+    for (const label of LABELS){
+      const slug = labelToSlug.get(label);
+      const exists = toMeter.has(slug) || meterTo.has(slug) || hasDirectFrom(slug);
+      if (exists){
+        const opt = document.createElement('option');
+        opt.value = slug; opt.textContent = label; sel.appendChild(opt);
+      }
+    }
+  }
+
+  function hasDirectFrom(slug){
+    const prefix = slug + '-to-';
+    for (const k of Object.keys(conversionFactors)) if (k.startsWith(prefix)) return true;
+    return false;
+  }
+
+  function formatNumber(x){
+    if (!Number.isFinite(x)) return '—';
+    const ax = Math.abs(x);
+    if (x !== 0 && (ax >= 1e9 || ax < 1e-6)) return x.toExponential(6);
+    return new Intl.NumberFormat(undefined,{maximumSignificantDigits:12}).format(x);
+  }
+
+  function convert(){
+    const v = parseFloat($('#value').value);
+    const fromSlug = $('#fromUnit').value;
+    const filter = ($('#filter').value||'').trim().toLowerCase();
+    if (!Number.isFinite(v) || !fromSlug){
+      tbody.innerHTML = '<tr><td colspan="2" class="empty">Enter a value and choose a unit.</td></tr>';
+      unitCount.textContent = '—';
+      return;
+    }
+
+    let toMetersFactor = null;
+    if (toMeter.has(fromSlug)) toMetersFactor = toMeter.get(fromSlug);
+    else if (conversionFactors[fromSlug+'-to-meter']!=null) toMetersFactor = conversionFactors[fromSlug+'-to-meter'];
+
+    const rows = [];
+    for (const [label, toSlug] of labelToSlug){
+      if (toSlug === fromSlug) continue;
+      const directKey = fromSlug+'-to-'+toSlug;
+      let out = null;
+      if (conversionFactors[directKey]!=null){
+        out = v * conversionFactors[directKey];
+      } else {
+        const mToTo = meterTo.get(toSlug) ?? conversionFactors['meter-to-'+toSlug];
+        if (toMetersFactor!=null && mToTo!=null){
+          out = v * toMetersFactor * mToTo;
+        }
+      }
+      if (out==null) continue;
+      if (!filter || label.toLowerCase().includes(filter)){
+        rows.push({unit: label, value: out});
+      }
+    }
+
+    rows.sort((a,b)=> a.unit.localeCompare(b.unit));
+    unitCount.textContent = `${rows.length} units`;
+    if (!rows.length){
+      tbody.innerHTML = '<tr><td colspan="2" class="empty">No matching target units found.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = rows.map(r=>`<tr><td class="unit">${r.unit}</td><td class="value">${formatNumber(r.value)}</td></tr>`).join('');
+  }
+
+  document.addEventListener('DOMContentLoaded',()=>{
+    buildFromDropdown();
+    convert();
+    $('#value').addEventListener('input', convert);
+    $('#fromUnit').addEventListener('change', convert);
+    $('#filter').addEventListener('input', convert);
+    $('#doConvert').addEventListener('click', convert);
+  });
+  </script>
+</body>
+</html>

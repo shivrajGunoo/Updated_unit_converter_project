@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Convert centimeters to meters and other length units with our free online converter tool.">
+    <meta name="keywords" content="cm to meters, centimeter to meter converter, length conversion, unit converter">
+    <title>CM to Meters Converter | Free Online Length Conversion Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/subpages.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">UNIT <span>CONVERTER</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">All Converters</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-wrapper">
+            <div class="content-section">
+                <div class="converter-section">
+                    <h2 class="converter-title">Centimeters to Meters Converter</h2>
+                    <div class="converter-tool">
+                        <div class="input-group">
+                            <label for="cm-input">Centimeters (cm)</label>
+                            <input type="number" id="cm-input" value="100" step="0.01" placeholder="Enter centimeters">
+                        </div>
+                        
+                        <button class="swap-btn" id="swap-btn" title="Swap conversion direction">
+                            <i class="fas fa-exchange-alt"></i>
+                        </button>
+                        
+                        <div class="input-group">
+                            <label for="m-input">Meters (m)</label>
+                            <input type="number" id="m-input" readonly placeholder="Result in meters">
+                        </div>
+                    </div>
+                    
+                    <h3>Equivalent Lengths</h3>
+                    <table class="conversion-table">
+                        <thead>
+                            <tr>
+                                <th>Unit</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody id="conversion-results">
+                            <!-- Conversion results will be populated here by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="description-section">
+                    <h3>About Centimeters to Meters Conversion</h3>
+                    <p>The centimeter (cm) and meter (m) are both units of length in the metric system. The meter is the base unit of length in the International System of Units (SI), while the centimeter is a commonly used subunit.</p>
+                    <p><strong>Conversion Formula:</strong> 1 meter = 100 centimeters</p>
+                    <p>To convert centimeters to meters, simply divide the number of centimeters by 100. For example, 250 centimeters equals 2.5 meters (250 ÷ 100 = 2.5).</p>
+                </div>
+            </div>
+            
+            <div class="ad-section">
+                <h3>Advertisement</h3>
+                <div class="ad-placeholder">        
+                    Ad Space (350x280)
+                </div>
+                <br/>
+
+                <object class="drawer_menu" data="drawer_menu.html" style="width:100%; height:70%; overflow:auto; border:none;"></object>
+
+            </div>      
+               
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 UnitConverters.net. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cmInput = document.getElementById('cm-input');
+            const mInput = document.getElementById('m-input');
+            const swapBtn = document.getElementById('swap-btn');
+            const resultsTable = document.getElementById('conversion-results');
+            
+            // Track conversion direction
+            let isCmToM = true;
+            
+            // Conversion factors (1 cm = x unit)
+            const conversionFactors = [
+                { unit: 'Kilometers', factor: 0.00001 },
+                { unit: 'Meters', factor: 0.01 },
+                { unit: 'Centimeters', factor: 1 },
+                { unit: 'Millimeters', factor: 10 },
+                { unit: 'Micrometers', factor: 10000 },
+                { unit: 'Nanometers', factor: 10000000 },
+                { unit: 'Miles', factor: 0.0000062137 },
+                { unit: 'Yards', factor: 0.0109361 },
+                { unit: 'Feet', factor: 0.0328084 },
+                { unit: 'Inches', factor: 0.393701 },
+                { unit: 'Nautical Miles', factor: 0.0000053996 }
+            ];
+            
+            // Format number to avoid long decimals
+            function formatNumber(num) {
+                return parseFloat(num.toFixed(8)).toString();
+            }
+            
+            // Update all conversions
+            function updateConversions() {
+                let cmValue;
+                
+                if (isCmToM) {
+                    cmValue = parseFloat(cmInput.value) || 0;
+                    const mValue = cmValue / 100;
+                    mInput.value = formatNumber(mValue);
+                } else {
+                    const mValue = parseFloat(mInput.value) || 0;
+                    cmValue = mValue * 100;
+                    cmInput.value = formatNumber(cmValue);
+                }
+                
+                // Update conversion table
+                let tableHTML = '';
+                conversionFactors.forEach(item => {
+                    const convertedValue = cmValue * item.factor;
+                    tableHTML += `
+                        <tr>
+                            <td>${item.unit}</td>
+                            <td>${formatNumber(convertedValue)}</td>
+                        </tr>
+                    `;
+                });
+                resultsTable.innerHTML = tableHTML;
+            }
+            
+            // Event listeners
+            cmInput.addEventListener('input', function() {
+                if (isCmToM) {
+                    updateConversions();    
+                }
+            });
+            
+            mInput.addEventListener('input', function() {
+                if (!isCmToM) {
+                    updateConversions();
+                }
+            });
+            
+            swapBtn.addEventListener('click', function() {
+                isCmToM = !isCmToM;
+                if (isCmToM) {
+                    mInput.setAttribute('readonly', 'true');
+                    cmInput.removeAttribute('readonly');
+                } else {
+                    cmInput.setAttribute('readonly', 'true');
+                    mInput.removeAttribute('readonly');
+                }
+                updateConversions();
+            });
+            
+            // Load the conversion menu
+            fetch('conversion-menu.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('conversion-menu-container').innerHTML = html;
+                })
+                .catch(err => {
+                    console.error('Failed to load conversion menu:', err);
+                });
+            
+            // Initialize
+            mInput.setAttribute('readonly', 'true');
+            updateConversions();
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Convert Troy pound to Momme (lb t to Japanese) easily with accurate formulas, example conversions, and SEO-friendly calculator tools."/>
+    <meta name="keywords" content="troy pound to momme, lb t to Japanese, convert troy pound to momme, troy pound to momme calculator, how many momme in a troy pound, troy pound in momme, lb t to Japanese converter, troy pound to momme formula, troy pound to momme chart, weight conversion troy pound to momme, troy pound to momme online converter"/>
+    <title>Troy pound to Momme Converter (lb t to Japanese)</title>
+    <link href="../css/sub_main_pages.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <script src="conversion_javascript.js"></script>
+</head>
+<body>
+    <?php include '../header.php'; ?>
+    <div class="container">
+        <div class="main-wrapper">
+            <div class="content-section">
+                <div class="converter-section">
+                    <h2>Troy pound to Momme Converter (lb t to Japanese)_CONTENT</h2>
+                    <div class="converter-tool">
+                        <div class="input-group">
+                            <label for="from-value">Enter Troy pound value</label>
+                            <input id="from-value" oninput="performConversion('troy-pound-lb t-to-momme-japanese')" placeholder="Troy pound (lb t)" step="0.01" type="number" value="1"/>
+                        </div>
+                        <button class="swap-btn" onclick="window.location.href='momme-japanese-to-troy-pound-lb t.php'" title="Convert Momme to Troy pound">
+                            <i class="fas fa-exchange-alt"></i>
+                        </button>
+                        <div class="input-group">
+                            <label for="to-value">Momme (Japanese)</label>
+                            <input id="to-value" placeholder="Momme (Japanese)" readonly="readonly" type="text"/>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="performConversion('troy-pound-lb t-to-momme-japanese')">Calculate</button>
+                        <button onclick="clearFields()">Clear</button>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <div class="about-section">
+                        <h3>Troy pound to Momme Converter (lb t to Japanese)_ABOUT</h3>
+                        <p>This page helps you convert Troy pound (lb t) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
+                        <p><strong>Formula:</strong> 1 lb t = 13.1657143 oz | Example: 1 × 13.1657143 = 13.1657143 oz</p>
+                        <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h3>Troy pound to Momme Converter (lb t to Japanese)_H3</h3>
+                    <ul>
+                        <li><a href="pound-lb-to-kilogram-kg.php">Pound (lb) to Kilogram (kg)</a></li>
+                        <li><a href="gram-g-to-milligram-mg.php">Gram (g) to Milligram (mg)</a></li>
+                        <li><a href="kilogram-kg-to-pound-lb.php">Kilogram (kg) to Pound (lb)</a></li>
+                        <li><a href="milligram-mg-to-microgram-ug.php">Milligram (mg) to Microgram (Âµg)</a></li>
+                        <li><a href="stone-st-to-pound-lb.php">Stone (st) to Pound (lb)</a></li>
+                        <li><a href="carat-ct-to-gram-g.php">Carat (ct) to Gram (g)</a></li>
+                        <li><a href="us-ton-short-ton-to-kilogram-kg.php">US Ton (short ton) to Kilogram (kg)</a></li>
+                        <li><a href="uk-ton-long-ton-to-kilogram-kg.php">UK Ton (long ton) to Kilogram (kg)</a></li>
+                        <li><a href="tonne-metric-ton-to-kilogram-kg.php">Tonne (metric ton) to Kilogram (kg)</a></li>
+                        <li><a href="grain-gr-to-milligram-mg.php">Grain (gr) to Milligram (mg)</a></li>
+                        <li><a href="troy-ounce-oz-t-to-gram-g.php">Troy ounce (oz t) to Gram (g)</a></li>
+                        <li><a href="troy-pound-lb-t-to-troy-ounce-oz-t.php">Troy pound (lb t) to Troy ounce (oz t)</a></li>
+                        <li><a href="momme-to-gram-g.php">Momme to Gram (g)</a></li>
+                        <li><a href="kan-japanese-to-kilogram-kg.php">Kan (Japanese) to Kilogram (kg)</a></li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>Convert Troy pound to other units</h3>
+                    <ul>
+<li><a href="troy-pound-lb t-to-ounce-oz.php">Troy pound to Ounce (oz)</a></li>
+<li><a href="troy-pound-lb t-to-pound-lb.php">Troy pound to Pound (lb)</a></li>
+<li><a href="troy-pound-lb t-to-gram-g.php">Troy pound to Gram (g)</a></li>
+<li><a href="troy-pound-lb t-to-kilogram-kg.php">Troy pound to Kilogram (kg)</a></li>
+<li><a href="troy-pound-lb t-to-milligram-mg.php">Troy pound to Milligram (mg)</a></li>
+<li><a href="troy-pound-lb t-to-microgram-µg.php">Troy pound to Microgram (µg)</a></li>
+<li><a href="troy-pound-lb t-to-stone-st.php">Troy pound to Stone (st)</a></li>
+<li><a href="troy-pound-lb t-to-carat-ct.php">Troy pound to Carat (ct)</a></li>
+<li><a href="troy-pound-lb t-to-us-ton-short ton.php">Troy pound to US Ton (short ton)</a></li>
+<li><a href="troy-pound-lb t-to-uk-ton-long ton.php">Troy pound to UK Ton (long ton)</a></li>
+<li><a href="troy-pound-lb t-to-tonne-metric ton.php">Troy pound to Tonne (metric ton)</a></li>
+<li><a href="troy-pound-lb t-to-dram-dr.php">Troy pound to Dram (dr)</a></li>
+<li><a href="troy-pound-lb t-to-grain-gr.php">Troy pound to Grain (gr)</a></li>
+<li><a href="troy-pound-lb t-to-troy-ounce-oz t.php">Troy pound to Troy ounce (oz t)</a></li>
+<li><a href="troy-pound-lb t-to-troy-pound-lb t.php">Troy pound to Troy pound (lb t)</a></li>
+<li><a href="troy-pound-lb t-to-kan-japanese.php">Troy pound to Kan (Japanese)</a></li>
+</ul>
+                </div>
+            </div>
+            <div class="ad-section">
+                <h3>Advertisement</h3>
+                <div class="ad-placeholder">Ad Space (350x280)</div>
+                <?php include '../drawer_menu.php'; ?>
+            </div>
+        </div>
+    </div>
+    <?php include '../footer.php'; ?>
+</body>
+</html>
