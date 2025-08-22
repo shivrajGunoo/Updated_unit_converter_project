@@ -47,14 +47,13 @@
 </head>
 <body>
 <?php include '../header.php'; ?>
-<?php include '../header.php'; ?>
   <div class="container">
     <div class="main-wrapper">
       
       <section class="content-section">
 
         <div class="converter-section">
-          <h2>Engineering Force Conversions</h2>
+          <h2>Force Conversions</h2>
 
           <div class="converter-tool">
             
@@ -120,8 +119,7 @@
         <?php include '../drawer_menu.php'; ?>
       </aside>
     </div>
-
-   
+  
   </div>
  <?php include '../footer.php'; ?>
 

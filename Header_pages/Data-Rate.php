@@ -96,11 +96,11 @@
           <div class="info-section">
             <h3>Popular Data Rate Conversions</h3>
             <ul>
-              <li><a href="bps-to-kbps.php">bps to kbps</a></li>
-<li><a href="kbps-to-Mbps.php">kbps to Mbps</a></li>
-<li><a href="Mbps-to-Gbps.php">Mbps to Gbps</a></li>
-<li><a href="Gbps-to-Mbps.php">Gbps to Mbps</a></li>
-<li><a href="Mbps-to-bps.php">Mbps to bps</a></li>
+              <li><a href="../Digital_and_Computing_Data Rate/bps-to-kbps.php">bps to kbps</a></li>
+              <li><a href="../Digital_and_Computing_Data Rate/kbps-to-Mbps.php">kbps to Mbps</a></li>
+              <li><a href="../Digital_and_Computing_Data Rate/Mbps-to-Gbps.php">Mbps to Gbps</a></li>
+              <li><a href="../Digital_and_Computing_Data Rate/Gbps-to-Mbps.php">Gbps to Mbps</a></li>
+              <li><a href="../Digital_and_Computing_Data Rate/Mbps-to-bps.php">Mbps to bps</a></li>
             </ul>
           </div>
         </div>

@@ -18,8 +18,8 @@
 </head>
 <body>
 <?php include '../header.php'; ?>
-<div class="container">
-  <div class="main-wrapper">
+<div class="container" >
+  <div class="main-wrapper" >
     <div class="content-section">
       <section class="converter-section">
         <h2>Viscosity density</h2>
@@ -70,7 +70,7 @@
 
       </section>
     </div>
-    <aside class="ad-section">
+    <aside class="ad-section" >
       <h3>Advertisement</h3>
       <div class="ad-placeholder">Ad Space (350x280)</div>
       <?php include '../drawer_menu.php'; ?>
@@ -82,10 +82,10 @@
 <script>
 const UNITS = [
   ['Pascal Second (Pa·s)', 'pascalsecond'],
-  ['Kilogram-Force Second per Square Meter (kgf·s/m²)', 'kilogram-forcesecond-squaremeter'],
-  ['Newton Second per Square Meter (N·s/m²)', 'newtonsecond-squaremeter'],
-  ['Millinewton Second per Square Meter (mN·s/m²)', 'millinewtonsecond-sqmeter'],
-  ['Dyne Second per Square Centimeter (dyn·s/cm²)', 'dynesecond-sqcentimeter'],
+  ['Kg-Force Second per Square m (kgf·s/m²)', 'kilogram-forcesecond-squaremeter'],
+  ['Newton Second per Square m (N·s/m²)', 'newtonsecond-squaremeter'],
+  ['Millinewton Second per Square m (mN·s/m²)', 'millinewtonsecond-sqmeter'],
+  ['Dyne Second per Square cm (dyn·s/cm²)', 'dynesecond-sqcentimeter'],
   ['Poise (P)', 'poise'],
   ['Exapoise (EP)', 'exapoise'],
   ['Petapoise (PP)', 'petapoise'],

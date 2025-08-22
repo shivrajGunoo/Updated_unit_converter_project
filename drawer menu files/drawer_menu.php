@@ -1,9 +1,6 @@
 <?php
-// Root-relative path to Header_pages (works from any nested folder)
-$baseUrl = "/unitconverter/Header_pages/";
-
 $menu = [
-  "Cooking_and_Food_Measurements" => [
+  "Cooking_N_Food_Measurements" => [
     ["Cooking-and-Food-Measurements-Weight-Mass.php","Cooking & Food Measurements (Weight/Mass)"]
   ],
   "Digital_and_Computing" => [
@@ -35,7 +32,7 @@ $menu = [
   ],
   "Fluids_Converters" => [
     ["Fluids-Converters-Flow.php","Flow"],
-    ["Fluids-Converters-Molar.php","Molar Flow"],
+    ["Fluids-Converters-Molar.fixed.php","Molar Flow (Fixed)"],
     ["surface-tension.php","Surface Tension"],
     ["Fluids_flow_mass.php","Flow (Mass)"],
     ["Mass-Flux-Density.php","Mass Flux Density"],
@@ -50,18 +47,15 @@ $menu = [
     ["Temperature.php","Temperature"]
   ]
 ];
-
-function tidy_title($k){
-  return trim(preg_replace('/\s+/', ' ', str_replace(['_','-'], ' ', $k)));
-}
-?>
-<!DOCTYPE html>
+function tidy_title($k){return trim(str_replace(["_","-"],[" "," "],$k));}
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>All Converters</title>
-<link rel="stylesheet" href="/unitconverter/css/drawer_menu.css"/>
+<link rel="stylesheet" href="../css/styles.css"/>
+<link rel="stylesheet" href="drawer_menu.css"/>
 </head>
 <body>
 <aside class="drawer">
@@ -69,26 +63,18 @@ function tidy_title($k){
 <nav class="drawer__nav">
 <?php foreach($menu as $section=>$items): ?>
 <details class="drawer__section">
-  <summary class="drawer__summary"><?php echo htmlspecialchars(tidy_title($section)); ?></summary>
-  <ul class="drawer__list">
-    <?php foreach($items as $row):
-      $file = $row[0];
-      $label = $row[1];
-      $href = rtrim($baseUrl,'/').'/'.$file;
-    ?>
-      <li><a class="drawer__link" href="<?php echo htmlspecialchars($href); ?>"><?php echo htmlspecialchars($label); ?></a></li>
-    <?php endforeach; ?>
-  </ul>
+<summary class="drawer__summary"><?php echo tidy_title($section); ?></summary>
+<ul class="drawer__list">
+<?php foreach($items as $row): ?>
+<li><a class="drawer__link" href="<?php echo $row[0]; ?>"><?php echo $row[1]; ?></a></li>
+<?php endforeach; ?>
+</ul>
 </details>
 <?php endforeach; ?>
 </nav>
 </aside>
 <script>
-document.querySelectorAll(".drawer__summary").forEach(function(s){
-  s.addEventListener("keydown",function(e){
-    if(e.key==="Enter"||e.key===" "){e.preventDefault();this.click();}
-  });
-});
+document.querySelectorAll(".drawer__summary").forEach(function(s){s.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();this.click();}});});
 </script>
 </body>
 </html>

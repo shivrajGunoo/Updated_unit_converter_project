@@ -1,5 +1,5 @@
 <?php
-  $pageTitle = "Engineering & Technical Conversions: Area Conversions";
+  $pageTitle = "Area Conversions";
   $metaDescription = "Convert between square meters, square feet, acres, hectares, square miles, and more with our fast Engineering & Technical Area converter.";
   $metaKeywords = "area converter,square meter to square foot,acres to square meters,hectares,cm² to m²,km²,in²,ft²,yd²,mi²,barn,circular inch,square mil";
 ?>
@@ -53,7 +53,7 @@
       <section class="content-section">
 
         <div class="converter-section">
-          <h2>Engineering Area Conversions</h2>
+          <h2>Area Conversions</h2>
 
           <div class="converter-tool">
             
