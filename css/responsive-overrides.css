@@ -1,0 +1,90 @@
+/* ---------- FIX 1: Stop horizontal overflow on mobile ---------- */
+html, body { overflow-x: hidden; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+
+/* Make any sidebar/drawer respect the viewport width */
+.drawer,
+.ad-section,
+.conversion-grid,
+.button-group {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Images/icons never push the layout */
+img, svg { max-width: 100%; height: auto; }
+
+/* If your tab/button strip was spilling, allow wrapping */
+.button-group,
+.tab-buttons,
+.quick-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Safer link titles inside the drawer */
+.drawer__link { 
+  display: block; 
+  padding: 10px 16px; 
+  text-wrap: balance;
+  word-break: break-word;
+}
+
+/* ---------- FIX 2: Drawer not blocking scroll ----------
+   Desktop: use sticky with a safe max-height & internal scroll
+   Mobile: make it flow (not sticky/fixed) so content scrolls normally
+*/
+@media (min-width: 992px) {
+  .drawer {
+    position: sticky;          /* follows page, but not fixed */
+    top: 80px;                 /* adjust to your header height */
+    max-height: calc(100vh - 100px);
+    overflow: auto;            /* scroll inside the drawer only */
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .drawer {
+    position: static !important;  /* no sticking on mobile */
+    top: auto !important;
+    max-height: none !important;
+    width: 100%;
+  }
+}
+
+/* Extra safety: summaries and lists don’t create overflow */
+.drawer__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.drawer__section {
+  margin: 0;
+}
+
+.drawer__list {
+  margin: 0;
+  padding: 0 0 8px 0;
+  list-style: none;
+}
+
+/* If any element somewhere used width:100vw (common culprit), neutralize it */
+@media (max-width: 768px) {
+  [style*="100vw"], .uses-100vw {
+    width: 100% !important;
+  }
+}
+
+/* Ad box already becomes 100% in your CSS; ensure no overflow anyway */
+@media (max-width: 768px) {
+  .ad-section { 
+    width: 100%;
+    overflow: hidden;
+  }
+}

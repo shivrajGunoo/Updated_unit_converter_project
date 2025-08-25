@@ -14,13 +14,13 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <a href="#">
+                <a href="<?php echo BASE_URL; ?>home.php">
                     <img src="/unitconverter/images/Logo.png" alt="Unit Converter Logo" style="max-height: 50px; height: auto; width: auto;" />
                 </a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>home.php">Home</a></li>
                     <li><a href="/unitconverter/All_conversions.php">All Converters</a></li>
                     <li><a href="<?php echo BASE_URL; ?>aboutus_policies_terms.php#about-us-title">About</a></li>
                     <li><a href="<?php echo BASE_URL; ?>aboutus_policies_terms.php#contact-us">Contact</a></li>
