@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Gram Converter (Japanese to g)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg ≈ 0.0000321507 oz t | Example: 31103.4768 mg ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 mg ≈ 0.0000321507 oz t | Example: 31103.4768 mg ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

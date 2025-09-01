@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Momme Converter (mg to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg = 0.001 g | Example: 1 × 0.001 = 0.001 g</p>
+<!--<p><strong>Formula:</strong> 1 mg = 0.001 g | Example: 1 × 0.001 = 0.001 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

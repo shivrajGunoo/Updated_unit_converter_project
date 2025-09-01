@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Dram Converter (Japanese to dr)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan = 3750000000 µg | Example: 0.000000000266667 kan ≈ 1 µg</p>
+<!--<p><strong>Formula:</strong> 1 kan = 3750000000 µg | Example: 0.000000000266667 kan ≈ 1 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

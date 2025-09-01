@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Stone Converter (short ton to st)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 2430.555556 lb t | Example: 0.000411428 short ton ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 2430.555556 lb t | Example: 0.000411428 short ton ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

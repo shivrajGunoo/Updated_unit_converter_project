@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Ounce Converter (metric ton to oz)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 0.03110348 kg | Example: 32.1507 oz t ≈ 1 kg</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 0.03110348 kg | Example: 32.1507 oz t ≈ 1 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

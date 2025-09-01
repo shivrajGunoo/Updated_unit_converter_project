@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Troy pound Converter (mg to lb t)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg = 0.00003527396 oz | Example: 1 × 0.00003527396 = 0.00003527396 oz</p>
+<!--<p><strong>Formula:</strong> 1 mg = 0.00003527396 oz | Example: 1 × 0.00003527396 = 0.00003527396 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

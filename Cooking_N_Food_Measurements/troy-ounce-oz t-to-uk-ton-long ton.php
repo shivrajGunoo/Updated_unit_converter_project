@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to UK Ton Converter (oz t to long ton)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 373241.722 mg | Example: 0.00000267923 lb t ≈ 1 mg</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 373241.722 mg | Example: 0.00000267923 lb t ≈ 1 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

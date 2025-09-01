@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Troy pound Converter (kg to lb t)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg ≈ 32.150747 oz t | Example: 2 kg ≈ 64.301494 oz t</p>
+<!--<p><strong>Formula:</strong> 1 kg ≈ 32.150747 oz t | Example: 2 kg ≈ 64.301494 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

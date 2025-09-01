@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Momme Converter (short ton to Japanese)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 142.857143 st | Example: 0.07 short ton ≈ 10 st</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 142.857143 st | Example: 0.07 short ton ≈ 10 st</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

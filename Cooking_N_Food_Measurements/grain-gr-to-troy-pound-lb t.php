@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Troy pound Converter (gr to lb t)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.0172797 momme | Example: 57.8713 gr ≈ 1 momme</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.0172797 momme | Example: 57.8713 gr ≈ 1 momme</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

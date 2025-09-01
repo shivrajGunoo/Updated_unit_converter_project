@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Stone Converter (Japanese to st)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 3.75 g | Example: 1 × 3.75 = 3.75 g</p>
+<!--<p><strong>Formula:</strong> 1 momme = 3.75 g | Example: 1 × 3.75 = 3.75 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

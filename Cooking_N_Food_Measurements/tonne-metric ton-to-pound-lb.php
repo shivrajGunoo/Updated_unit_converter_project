@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Pound Converter (metric ton to lb)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 31103476.8 µg | Example: 0.0000000321507 oz t ≈ 1 µg</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 31103476.8 µg | Example: 0.0000000321507 oz t ≈ 1 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

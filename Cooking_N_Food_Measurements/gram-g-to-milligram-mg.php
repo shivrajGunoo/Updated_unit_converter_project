@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Milligram Converter (g to mg)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 grain = 0.06479891 g | Example: 1 × 0.06479891 = 0.06479891 g</p>
+<!--<p><strong>Formula:</strong> 1 grain = 0.06479891 g | Example: 1 × 0.06479891 = 0.06479891 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

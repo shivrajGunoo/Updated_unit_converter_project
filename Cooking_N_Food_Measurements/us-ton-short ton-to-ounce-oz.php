@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Ounce Converter (short ton to oz)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 0.907185 t | Example: 1.10231 short ton ≈ 1 t</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 0.907185 t | Example: 1.10231 short ton ≈ 1 t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

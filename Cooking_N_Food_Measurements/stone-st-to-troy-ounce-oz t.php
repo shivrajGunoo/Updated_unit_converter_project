@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Troy ounce Converter (st to oz t)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 157.473044 st | Example: 0.00635029 t ≈ 1 st</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 157.473044 st | Example: 0.00635029 t ≈ 1 st</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

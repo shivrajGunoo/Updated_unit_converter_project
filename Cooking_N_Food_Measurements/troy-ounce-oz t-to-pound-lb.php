@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Pound Converter (oz t to lb)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 373.241722 g | Example: 0.00267923 lb t ≈ 1 g</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 373.241722 g | Example: 0.00267923 lb t ≈ 1 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

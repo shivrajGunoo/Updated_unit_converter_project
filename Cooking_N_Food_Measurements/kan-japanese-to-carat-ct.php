@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Carat Converter (Japanese to ct)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan = 3.75 kg | Example: 0.266667 kan ≈ 1 kg</p>
+<!--<p><strong>Formula:</strong> 1 kan = 3.75 kg | Example: 0.266667 kan ≈ 1 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Tonne Converter (short ton to metric ton)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 0.892857 long ton | Example: 1.12 short ton ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 0.892857 long ton | Example: 1.12 short ton ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

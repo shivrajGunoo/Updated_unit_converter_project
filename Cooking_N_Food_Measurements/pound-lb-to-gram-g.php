@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Pound to Gram Converter (lb to g)_ABOUT</h3>
                         <p>This page helps you convert Pound (lb) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 st ≈ 6.350293 kg | Example: 2 st ≈ 12.700586 kg</p>
+<!--<p><strong>Formula:</strong> 1 st ≈ 6.350293 kg | Example: 2 st ≈ 12.700586 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

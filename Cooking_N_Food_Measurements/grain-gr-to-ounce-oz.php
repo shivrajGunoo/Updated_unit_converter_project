@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Ounce Converter (gr to oz)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.06479891 g | Example: 15.43236 gr ≈ 1 g</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.06479891 g | Example: 15.43236 gr ≈ 1 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

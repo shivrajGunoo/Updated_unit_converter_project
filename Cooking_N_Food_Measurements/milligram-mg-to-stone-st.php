@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Stone Converter (mg to st)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg = 0.000001 kg | Example: 500000 mg = 0.5 kg</p>
+<!--<p><strong>Formula:</strong> 1 mg = 0.000001 kg | Example: 500000 mg = 0.5 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

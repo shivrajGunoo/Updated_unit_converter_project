@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Kilogram Converter (dr to kg)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr = 27.34375 gr | Example: 0.0365714 dr ≈ 1 gr</p>
+<!--<p><strong>Formula:</strong> 1 dr = 27.34375 gr | Example: 0.0365714 dr ≈ 1 gr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

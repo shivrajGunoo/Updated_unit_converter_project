@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to UK Ton Converter (dr to long ton)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 0.00000177185 t | Example: 564383 dr ≈ 1 t</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 0.00000177185 t | Example: 564383 dr ≈ 1 t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

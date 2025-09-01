@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Kilogram Converter (oz to kg)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 0.00000375 t | Example: 266666.667 momme ≈ 1 t</p>
+<!--<p><strong>Formula:</strong> 1 momme = 0.00000375 t | Example: 266666.667 momme ≈ 1 t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

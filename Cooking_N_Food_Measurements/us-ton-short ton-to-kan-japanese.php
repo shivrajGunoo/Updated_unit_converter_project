@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Kan Converter (short ton to Japanese)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 907184740 mg | Example: 0.000001 short ton ≈ 907.18474 mg</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 907184740 mg | Example: 0.000001 short ton ≈ 907.18474 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

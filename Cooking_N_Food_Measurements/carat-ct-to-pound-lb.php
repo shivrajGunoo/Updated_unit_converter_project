@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Pound Converter (ct to lb)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct ≈ 0.000440925 lb | Example: 1000 ct ≈ 0.440925 lb</p>
+<!--<p><strong>Formula:</strong> 1 ct ≈ 0.000440925 lb | Example: 1000 ct ≈ 0.440925 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

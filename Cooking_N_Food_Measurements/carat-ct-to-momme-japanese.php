@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Momme Converter (ct to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct ≈ 0.0533333 momme | Example: 18.75 ct ≈ 1 momme</p>
+<!--<p><strong>Formula:</strong> 1 ct ≈ 0.0533333 momme | Example: 18.75 ct ≈ 1 momme</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

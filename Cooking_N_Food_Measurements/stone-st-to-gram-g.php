@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Gram Converter (st to g)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 15432358.352941 gr | Example: 0.0000000647989 t ≈ 1 gr</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 15432358.352941 gr | Example: 0.0000000647989 t ≈ 1 gr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

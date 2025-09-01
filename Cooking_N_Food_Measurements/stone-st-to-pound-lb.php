@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Pound Converter (st to lb)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 35273.96195 oz | Example: 0.0000283495 t ≈ 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 35273.96195 oz | Example: 0.0000283495 t ≈ 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

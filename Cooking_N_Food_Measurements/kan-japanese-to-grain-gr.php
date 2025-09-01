@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Grain Converter (Japanese to gr)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan = 3750000 mg | Example: 0.000000266667 kan ≈ 1 mg</p>
+<!--<p><strong>Formula:</strong> 1 kan = 3750000 mg | Example: 0.000000266667 kan ≈ 1 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

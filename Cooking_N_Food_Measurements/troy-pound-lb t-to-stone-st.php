@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Stone Converter (lb t to st)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton = 573440 dr | Example: 0.00000174 long ton ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 long ton = 573440 dr | Example: 0.00000174 long ton ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

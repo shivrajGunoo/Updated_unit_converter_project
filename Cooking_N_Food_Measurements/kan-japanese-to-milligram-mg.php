@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Milligram Converter (Japanese to mg)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 8.26733481 lb | Example: 1 × 8.26733481 = 8.26733481 lb</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 8.26733481 lb | Example: 1 × 8.26733481 = 8.26733481 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

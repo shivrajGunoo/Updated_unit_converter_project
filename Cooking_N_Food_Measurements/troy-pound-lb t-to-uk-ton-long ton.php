@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to UK Ton Converter (lb t to long ton)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton ≈ 270.945842 kan | Example: 0.00369037 long ton ≈ 1 kan</p>
+<!--<p><strong>Formula:</strong> 1 long ton ≈ 270.945842 kan | Example: 0.00369037 long ton ≈ 1 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

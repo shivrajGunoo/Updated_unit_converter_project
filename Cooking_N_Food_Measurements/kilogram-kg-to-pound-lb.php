@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Pound Converter (kg to lb)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg = 2.20462262 lb | Example: 1 × 2.20462262 = 2.20462262 lb</p>
+<!--<p><strong>Formula:</strong> 1 kg = 2.20462262 lb | Example: 1 × 2.20462262 = 2.20462262 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

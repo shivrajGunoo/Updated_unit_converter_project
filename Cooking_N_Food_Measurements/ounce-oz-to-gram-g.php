@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Gram Converter (oz to g)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 0.00826733 lb | Example: 120.958 momme ≈ 1 lb</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 0.00826733 lb | Example: 120.958 momme ≈ 1 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

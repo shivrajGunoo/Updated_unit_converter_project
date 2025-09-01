@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Momme Converter (lb t to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t = 13.1657143 oz | Example: 1 × 13.1657143 = 13.1657143 oz</p>
+<!--<p><strong>Formula:</strong> 1 lb t = 13.1657143 oz | Example: 1 × 13.1657143 = 13.1657143 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

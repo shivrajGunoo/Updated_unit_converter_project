@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Dram Converter (oz to dr)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 0.132277 oz | Example: 7.55987 momme ≈ 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 0.132277 oz | Example: 7.55987 momme ≈ 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

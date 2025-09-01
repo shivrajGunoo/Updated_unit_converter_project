@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Gram Converter (oz t to g)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 0.0000342857 short ton | Example: 29166.6667 oz t ≈ 1 short ton</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 0.0000342857 short ton | Example: 29166.6667 oz t ≈ 1 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

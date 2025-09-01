@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Stone Converter (gr to st)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.000064799 kg | Example: 15432.3584 gr ≈ 1 kg</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.000064799 kg | Example: 15432.3584 gr ≈ 1 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

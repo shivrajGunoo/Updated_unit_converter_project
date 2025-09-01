@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Pound to Kilogram Converter (lb to kg)_ABOUT</h3>
                         <p>This page helps you convert Pound (lb) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 st ≈ 6350293.18 mg | Example: 0.1 st ≈ 635029.318 mg</p>
+<!--<p><strong>Formula:</strong> 1 st ≈ 6350293.18 mg | Example: 0.1 st ≈ 635029.318 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

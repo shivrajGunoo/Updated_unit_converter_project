@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Momme Converter (oz to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 0.00000369037 long ton | Example: 270945.842 momme ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 0.00000369037 long ton | Example: 270945.842 momme ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

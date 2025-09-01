@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Momme Converter (gr to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.0365714 dr | Example: 27.34375 gr ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.0365714 dr | Example: 27.34375 gr ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

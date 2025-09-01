@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Momme Converter (long ton to Japanese)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton ≈ 2722.222222 lb t | Example: 0.000367347 long ton ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 long ton ≈ 2722.222222 lb t | Example: 0.000367347 long ton ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

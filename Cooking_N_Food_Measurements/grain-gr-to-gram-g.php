@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Gram Converter (gr to g)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 0.00000195312 short ton | Example: 512000 dr ≈ 1 short ton</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 0.00000195312 short ton | Example: 512000 dr ≈ 1 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

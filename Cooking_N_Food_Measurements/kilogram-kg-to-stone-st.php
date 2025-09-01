@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Stone Converter (kg to st)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg = 2.204623 lb | Example: 5 kg = 11.023115 lb</p>
+<!--<p><strong>Formula:</strong> 1 kg = 2.204623 lb | Example: 5 kg = 11.023115 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

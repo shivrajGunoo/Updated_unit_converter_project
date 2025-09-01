@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Troy ounce Converter (gr to oz t)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 64.79891 mg | Example: 0.01543236 gr ≈ 1 mg</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 64.79891 mg | Example: 0.01543236 gr ≈ 1 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

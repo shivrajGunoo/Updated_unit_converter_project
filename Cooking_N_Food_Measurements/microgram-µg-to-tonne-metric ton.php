@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Microgram to Tonne Converter (µg to metric ton)_ABOUT</h3>
                         <p>This page helps you convert Microgram (µg) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.000000035274 oz | Example: 28349523.125 µg ≈ 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.000000035274 oz | Example: 28349523.125 µg ≈ 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

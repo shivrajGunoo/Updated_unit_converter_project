@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Troy pound Converter (ct to lb t)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct ≈ 0.000535846 lb t | Example: 1866.2086 ct ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 ct ≈ 0.000535846 lb t | Example: 1866.2086 ct ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

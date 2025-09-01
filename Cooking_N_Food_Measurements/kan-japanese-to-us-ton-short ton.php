@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to US Ton Converter (Japanese to short ton)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to US Ton (short ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg ≈ 564.383391 dr | Example: 0.5 kg ≈ 282.191696 dr</p>
+<!--<p><strong>Formula:</strong> 1 kg ≈ 564.383391 dr | Example: 0.5 kg ≈ 282.191696 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

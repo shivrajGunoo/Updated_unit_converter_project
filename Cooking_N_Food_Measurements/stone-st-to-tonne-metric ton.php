@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Tonne Converter (st to metric ton)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 2204.622622 lb | Example: 0.000453592 t ≈ 1 lb</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 2204.622622 lb | Example: 0.000453592 t ≈ 1 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

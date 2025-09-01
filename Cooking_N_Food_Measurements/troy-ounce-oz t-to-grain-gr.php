@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Grain Converter (oz t to gr)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 0.0000306122 long ton | Example: 32666.6667 oz t ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 0.0000306122 long ton | Example: 32666.6667 oz t ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

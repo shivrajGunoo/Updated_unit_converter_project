@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Stone Converter (g to st)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 g = 0.00220462 lb | Example: 1 × 0.00220462 = 0.00220462 lb</p>
+<!--<p><strong>Formula:</strong> 1 g = 0.00220462 lb | Example: 1 × 0.00220462 = 0.00220462 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

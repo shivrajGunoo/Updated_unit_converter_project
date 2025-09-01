@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Kilogram Converter (lb t to kg)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 0.000367347 long ton | Example: 2722.2222 lb t ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 0.000367347 long ton | Example: 2722.2222 lb t ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

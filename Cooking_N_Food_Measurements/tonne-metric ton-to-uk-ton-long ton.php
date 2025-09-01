@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to UK Ton Converter (metric ton to long ton)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 0.0685714 lb | Example: 14.5833 oz t ≈ 1 lb</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 0.0685714 lb | Example: 14.5833 oz t ≈ 1 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

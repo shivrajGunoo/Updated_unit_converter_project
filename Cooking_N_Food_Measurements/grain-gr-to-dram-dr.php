@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Dram Converter (gr to dr)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 0.00000174386 long ton | Example: 573440 dr ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 0.00000174386 long ton | Example: 573440 dr ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

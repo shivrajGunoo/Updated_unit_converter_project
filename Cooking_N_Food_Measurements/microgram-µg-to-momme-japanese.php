@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Microgram to Momme Converter (µg to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Microgram (µg) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg = 0.000000001 kg | Example: 1000000000 µg = 1 kg</p>
+<!--<p><strong>Formula:</strong> 1 µg = 0.000000001 kg | Example: 1000000000 µg = 1 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

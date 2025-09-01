@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Grain Converter (metric ton to gr)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 tonne = 35273.96195 oz | Example: 1 × 35273.96195 = 35273.96195 oz</p>
+<!--<p><strong>Formula:</strong> 1 tonne = 35273.96195 oz | Example: 1 × 35273.96195 = 35273.96195 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

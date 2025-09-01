@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Milligram Converter (metric ton to mg)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 31.1034768 g | Example: 0.0321507 oz t ≈ 1 g</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 31.1034768 g | Example: 0.0321507 oz t ≈ 1 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

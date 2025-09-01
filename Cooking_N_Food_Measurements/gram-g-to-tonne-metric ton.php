@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Tonne Converter (g to metric ton)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan = 18750 ct | Example: 0.0000533333 kan ≈ 1 ct</p>
+<!--<p><strong>Formula:</strong> 1 kan = 18750 ct | Example: 0.0000533333 kan ≈ 1 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

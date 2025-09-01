@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Grain Converter (short ton to gr)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 907.18474 kg | Example: 2 short ton ≈ 1814.36948 kg</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 907.18474 kg | Example: 2 short ton ≈ 1814.36948 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

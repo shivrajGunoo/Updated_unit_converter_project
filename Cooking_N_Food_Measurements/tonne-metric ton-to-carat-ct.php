@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Carat Converter (metric ton to ct)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 1.102311 short ton | Example: 0.907185 t ≈ 1 short ton</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 1.102311 short ton | Example: 0.907185 t ≈ 1 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

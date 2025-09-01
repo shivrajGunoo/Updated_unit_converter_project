@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Kilogram Converter (metric ton to kg)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 17.5542857 dr | Example: 0.0569661 oz t ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 17.5542857 dr | Example: 0.0569661 oz t ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

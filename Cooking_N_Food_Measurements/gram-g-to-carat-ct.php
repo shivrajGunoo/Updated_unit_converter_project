@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Carat Converter (g to ct)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.0000102041 st | Example: 98000 gr ≈ 1 st</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.0000102041 st | Example: 98000 gr ≈ 1 st</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

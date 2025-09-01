@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Stone Converter (Japanese to st)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Stone (st) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 120.5653 oz t | Example: 0.00829422 kan ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 120.5653 oz t | Example: 0.00829422 kan ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

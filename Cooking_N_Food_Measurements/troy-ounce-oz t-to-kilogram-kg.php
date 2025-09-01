@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Kilogram Converter (oz t to kg)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t = 1.09714286 oz | Example: 1 × 1.09714286 = 1.09714286 oz</p>
+<!--<p><strong>Formula:</strong> 1 oz t = 1.09714286 oz | Example: 1 × 1.09714286 = 1.09714286 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Pound to Kan Converter (lb to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Pound (lb) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 st ≈ 6350293180 µg | Example: 0.01 st ≈ 63502931.8 µg</p>
+<!--<p><strong>Formula:</strong> 1 st ≈ 6350293180 µg | Example: 0.01 st ≈ 63502931.8 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

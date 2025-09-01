@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Ounce Converter (Japanese to oz)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 2.11644 dr | Example: 0.472492 momme ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 2.11644 dr | Example: 0.472492 momme ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

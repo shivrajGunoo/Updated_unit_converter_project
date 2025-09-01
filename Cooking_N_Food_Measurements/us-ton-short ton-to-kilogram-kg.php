@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Kilogram Converter (short ton to kg)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 241915.930667 momme | Example: 0.00000413333 short ton ≈ 1 momme</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 241915.930667 momme | Example: 0.00000413333 short ton ≈ 1 momme</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

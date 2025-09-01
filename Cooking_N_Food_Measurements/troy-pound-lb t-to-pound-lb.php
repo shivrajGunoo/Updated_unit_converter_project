@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Pound Converter (lb t to lb)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton ≈ 5080234.544 ct | Example: 0.000000196841 long ton ≈ 1 ct</p>
+<!--<p><strong>Formula:</strong> 1 long ton ≈ 5080234.544 ct | Example: 0.000000196841 long ton ≈ 1 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

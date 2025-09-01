@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Gram Converter (lb t to g)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 0.000373242 t | Example: 2679.2289 lb t ≈ 1 t</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 0.000373242 t | Example: 2679.2289 lb t ≈ 1 t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

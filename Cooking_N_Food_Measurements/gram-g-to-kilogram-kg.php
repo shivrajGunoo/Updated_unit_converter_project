@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Kilogram Converter (g to kg)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.0000000637755 long ton | Example: 15680000 gr ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.0000000637755 long ton | Example: 15680000 gr ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

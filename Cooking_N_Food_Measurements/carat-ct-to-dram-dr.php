@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Dram Converter (ct to dr)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct ≈ 0.112877 dr | Example: 8.859 ct ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 ct ≈ 0.112877 dr | Example: 8.859 ct ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

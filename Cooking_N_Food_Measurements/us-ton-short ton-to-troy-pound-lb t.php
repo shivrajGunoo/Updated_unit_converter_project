@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Troy pound Converter (short ton to lb t)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 US ton = 32000 oz | Example: 1 × 32000 = 32000 oz</p>
+<!--<p><strong>Formula:</strong> 1 US ton = 32000 oz | Example: 1 × 32000 = 32000 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Pound Converter (dr to lb)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 1771.845195 mg | Example: 0.000564383 dr ≈ 1 mg</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 1771.845195 mg | Example: 0.000564383 dr ≈ 1 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

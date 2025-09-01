@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Gram Converter (dr to g)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 carat = 0.000440925 lb | Example: 1 × 0.000440925 = 0.000440925 lb</p>
+<!--<p><strong>Formula:</strong> 1 carat = 0.000440925 lb | Example: 1 × 0.000440925 = 0.000440925 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

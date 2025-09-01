@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Microgram Converter (lb t to µg)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Microgram (µg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 0.000411428 short ton | Example: 2430.5556 lb t ≈ 1 short ton</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 0.000411428 short ton | Example: 2430.5556 lb t ≈ 1 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

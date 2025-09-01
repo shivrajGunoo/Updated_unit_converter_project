@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Milligram Converter (lb t to mg)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t = 373.2417216 g | Example: 1 × 373.2417216 = 373.2417216 g</p>
+<!--<p><strong>Formula:</strong> 1 lb t = 373.2417216 g | Example: 1 × 373.2417216 = 373.2417216 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

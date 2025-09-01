@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Ounce Converter (kg to oz)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg = 35.273962 oz | Example: 2 kg = 70.547924 oz</p>
+<!--<p><strong>Formula:</strong> 1 kg = 35.273962 oz | Example: 2 kg = 70.547924 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

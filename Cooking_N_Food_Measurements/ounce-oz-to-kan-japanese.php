@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Kan Converter (oz to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 0.000590524 st | Example: 1693.41152 momme ≈ 1 st</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 0.000590524 st | Example: 1693.41152 momme ≈ 1 st</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

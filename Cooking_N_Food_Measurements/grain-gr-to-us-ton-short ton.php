@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to US Ton Converter (gr to short ton)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to US Ton (short ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.000142857 lb | Example: 7000 gr ≈ 1 lb</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.000142857 lb | Example: 7000 gr ≈ 1 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

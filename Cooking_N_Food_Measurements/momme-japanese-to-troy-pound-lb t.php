@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Troy pound Converter (Japanese to lb t)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 0.00375 kg | Example: 266.666667 momme ≈ 1 kg</p>
+<!--<p><strong>Formula:</strong> 1 momme = 0.00375 kg | Example: 266.666667 momme ≈ 1 kg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

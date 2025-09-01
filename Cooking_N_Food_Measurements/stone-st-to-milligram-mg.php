@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Milligram Converter (st to mg)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t = 1000000000000 µg | Example: 0.000000000001 t = 1 µg</p>
+<!--<p><strong>Formula:</strong> 1 t = 1000000000000 µg | Example: 0.000000000001 t = 1 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

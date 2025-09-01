@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to UK Ton Converter (Japanese to long ton)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 3750000 µg | Example: 0.000000266667 momme ≈ 1 µg</p>
+<!--<p><strong>Formula:</strong> 1 momme = 3750000 µg | Example: 0.000000266667 momme ≈ 1 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

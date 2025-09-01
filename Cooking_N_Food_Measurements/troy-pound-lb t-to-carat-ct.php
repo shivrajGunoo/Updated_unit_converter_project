@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Carat Converter (lb t to ct)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 13.165714 oz | Example: 0.0759549 lb t ≈ 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 13.165714 oz | Example: 0.0759549 lb t ≈ 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

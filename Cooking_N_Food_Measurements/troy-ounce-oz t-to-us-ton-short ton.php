@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to US Ton Converter (oz t to short ton)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to US Ton (short ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 99.53067 momme | Example: 0.0100472 lb t ≈ 1 momme</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 99.53067 momme | Example: 0.0100472 lb t ≈ 1 momme</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

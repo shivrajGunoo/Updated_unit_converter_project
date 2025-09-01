@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Microgram to Carat Converter (µg to ct)_ABOUT</h3>
                         <p>This page helps you convert Microgram (µg) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg ≈ 0.00110231 short ton | Example: 500 kg ≈ 0.551156 short ton</p>
+<!--<p><strong>Formula:</strong> 1 kg ≈ 0.00110231 short ton | Example: 500 kg ≈ 0.551156 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

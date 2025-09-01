@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to UK Ton Converter (st to long ton)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 2679.228881 lb t | Example: 0.000373242 t ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 2679.228881 lb t | Example: 0.000373242 t ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

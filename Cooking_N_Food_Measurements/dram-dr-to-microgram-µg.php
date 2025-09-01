@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Microgram Converter (dr to µg)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Microgram (µg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 1.771845 g | Example: 0.564383 dr ≈ 1 g</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 1.771845 g | Example: 0.564383 dr ≈ 1 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

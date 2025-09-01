@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Microgram Converter (Japanese to µg)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Microgram (µg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 132.277357 oz | Example: 0.00755987 kan ≈ 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 132.277357 oz | Example: 0.00755987 kan ≈ 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

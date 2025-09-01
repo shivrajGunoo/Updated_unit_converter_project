@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Kan Converter (lb t to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t = 12 oz t | Example: 0.0833333 lb t ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 lb t = 12 oz t | Example: 0.0833333 lb t ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

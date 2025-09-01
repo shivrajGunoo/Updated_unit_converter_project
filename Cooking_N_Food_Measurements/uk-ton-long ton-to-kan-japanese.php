@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Kan Converter (long ton to Japanese)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton = 2240 lb | Example: 0.01 long ton = 22.4 lb</p>
+<!--<p><strong>Formula:</strong> 1 long ton = 2240 lb | Example: 0.01 long ton = 22.4 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

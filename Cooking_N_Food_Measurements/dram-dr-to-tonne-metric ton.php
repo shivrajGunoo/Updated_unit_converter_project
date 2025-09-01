@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Tonne Converter (dr to metric ton)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr = 0.0625 oz | Example: 16 dr = 1 oz</p>
+<!--<p><strong>Formula:</strong> 1 dr = 0.0625 oz | Example: 16 dr = 1 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Kan Converter (metric ton to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t ≈ 155.517384 ct | Example: 0.00643015 oz t ≈ 1 ct</p>
+<!--<p><strong>Formula:</strong> 1 oz t ≈ 155.517384 ct | Example: 0.00643015 oz t ≈ 1 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Kilogram Converter (Japanese to kg)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg ≈ 0.000000000984207 long ton | Example: 1016046908.8 mg ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 mg ≈ 0.000000000984207 long ton | Example: 1016046908.8 mg ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Dram Converter (lb t to dr)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 0.822857 lb | Example: 1.21528 lb t ≈ 1 lb</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 0.822857 lb | Example: 1.21528 lb t ≈ 1 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

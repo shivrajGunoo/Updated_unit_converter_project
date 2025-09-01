@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Pound Converter (Japanese to lb)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme ≈ 57.871343 gr | Example: 0.0172797 momme ≈ 1 gr</p>
+<!--<p><strong>Formula:</strong> 1 momme ≈ 57.871343 gr | Example: 0.0172797 momme ≈ 1 gr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

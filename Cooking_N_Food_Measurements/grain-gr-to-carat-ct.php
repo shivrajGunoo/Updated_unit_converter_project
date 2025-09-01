@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Grain to Carat Converter (gr to ct)_ABOUT</h3>
                         <p>This page helps you convert Grain (gr) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 0.00474718 lb t | Example: 210.6514 dr ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 0.00474718 lb t | Example: 210.6514 dr ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

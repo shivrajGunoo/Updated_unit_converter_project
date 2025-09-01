@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Tonne to Gram Converter (metric ton to g)_ABOUT</h3>
                         <p>This page helps you convert Tonne (metric ton) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 tonne = 2204.62262 lb | Example: 1 × 2204.62262 = 2204.62262 lb</p>
+<!--<p><strong>Formula:</strong> 1 tonne = 2204.62262 lb | Example: 1 × 2204.62262 = 2204.62262 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

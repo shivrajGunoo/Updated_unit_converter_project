@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Grain Converter (mg to gr)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.000000000000984207 long ton | Example: 1016046908800 µg ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.000000000000984207 long ton | Example: 1016046908800 µg ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

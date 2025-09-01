@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Milligram Converter (oz t to mg)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 1866.20861 ct | Example: 0.000535846 lb t ≈ 1 ct</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 1866.20861 ct | Example: 0.000535846 lb t ≈ 1 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Gram Converter (ct to g)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct = 0.2 g | Example: 5 ct = 1 g</p>
+<!--<p><strong>Formula:</strong> 1 ct = 0.2 g | Example: 5 ct = 1 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

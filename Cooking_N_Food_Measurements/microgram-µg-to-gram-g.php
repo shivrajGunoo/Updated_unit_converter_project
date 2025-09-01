@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Microgram to Gram Converter (µg to g)_ABOUT</h3>
                         <p>This page helps you convert Microgram (µg) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.0000154324 gr | Example: 64798910 µg ≈ 1 gr</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.0000154324 gr | Example: 64798910 µg ≈ 1 gr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Momme Converter (oz t to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Momme (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 210.651429 dr | Example: 0.00474718 lb t ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 210.651429 dr | Example: 0.00474718 lb t ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

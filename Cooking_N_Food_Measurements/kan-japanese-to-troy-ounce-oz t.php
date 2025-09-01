@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kan to Troy ounce Converter (Japanese to oz t)_ABOUT</h3>
                         <p>This page helps you convert Kan (Japanese) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 0.00369037 long ton | Example: 270.945842 kan ≈ 1 long ton</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 0.00369037 long ton | Example: 270.945842 kan ≈ 1 long ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

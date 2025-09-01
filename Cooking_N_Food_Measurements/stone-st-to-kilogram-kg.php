@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Stone to Kilogram Converter (st to kg)_ABOUT</h3>
                         <p>This page helps you convert Stone (st) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 t ≈ 266.666667 kan | Example: 0.00375 t ≈ 1 kan</p>
+<!--<p><strong>Formula:</strong> 1 t ≈ 266.666667 kan | Example: 0.00375 t ≈ 1 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

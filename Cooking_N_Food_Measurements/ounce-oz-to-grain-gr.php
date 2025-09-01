@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Grain Converter (oz to gr)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 0.00826733 lb | Example: 1 × 0.00826733 = 0.00826733 lb</p>
+<!--<p><strong>Formula:</strong> 1 momme = 0.00826733 lb | Example: 1 × 0.00826733 = 0.00826733 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

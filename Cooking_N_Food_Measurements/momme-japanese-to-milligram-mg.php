@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Milligram Converter (Japanese to mg)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 18.75 ct | Example: 0.0533333 momme ≈ 1 ct</p>
+<!--<p><strong>Formula:</strong> 1 momme = 18.75 ct | Example: 0.0533333 momme ≈ 1 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

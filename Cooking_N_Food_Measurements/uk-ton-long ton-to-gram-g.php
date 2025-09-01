@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Gram Converter (long ton to g)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton = 35840 oz | Example: 0.5 long ton = 17920 oz</p>
+<!--<p><strong>Formula:</strong> 1 long ton = 35840 oz | Example: 0.5 long ton = 17920 oz</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

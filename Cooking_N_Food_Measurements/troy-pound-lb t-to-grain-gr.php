@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy pound to Grain Converter (lb t to gr)_ABOUT</h3>
                         <p>This page helps you convert Troy pound (lb t) to Grain (gr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb t ≈ 0.0587755 st | Example: 17.0139 lb t ≈ 1 st</p>
+<!--<p><strong>Formula:</strong> 1 lb t ≈ 0.0587755 st | Example: 17.0139 lb t ≈ 1 st</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

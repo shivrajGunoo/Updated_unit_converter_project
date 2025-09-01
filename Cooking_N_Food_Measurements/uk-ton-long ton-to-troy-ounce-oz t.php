@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Troy ounce Converter (long ton to oz t)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 4535923.7 ct | Example: 0.0000002 short ton ≈ 0.907185 ct</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 4535923.7 ct | Example: 0.0000002 short ton ≈ 0.907185 ct</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

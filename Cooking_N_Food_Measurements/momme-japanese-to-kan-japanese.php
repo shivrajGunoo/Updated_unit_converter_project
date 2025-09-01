@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Kan Converter (Japanese to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg ≈ 0.00000267923 lb t | Example: 373241.7216 mg ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 mg ≈ 0.00000267923 lb t | Example: 373241.7216 mg ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

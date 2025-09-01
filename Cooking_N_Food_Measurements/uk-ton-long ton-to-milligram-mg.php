@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Milligram Converter (long ton to mg)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 long ton ≈ 32666.666667 oz t | Example: 0.0000306122 long ton ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 long ton ≈ 32666.666667 oz t | Example: 0.0000306122 long ton ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

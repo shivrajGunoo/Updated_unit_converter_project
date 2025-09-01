@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Kilogram Converter (mg to kg)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Kilogram (kg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg ≈ 0.000564383 dr | Example: 1000 mg ≈ 0.564383 dr</p>
+<!--<p><strong>Formula:</strong> 1 mg ≈ 0.000564383 dr | Example: 1000 mg ≈ 0.564383 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

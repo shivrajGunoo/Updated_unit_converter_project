@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to Pound Converter (short ton to lb)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 short ton ≈ 29166.666667 oz t | Example: 0.0000342857 short ton ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 short ton ≈ 29166.666667 oz t | Example: 0.0000342857 short ton ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

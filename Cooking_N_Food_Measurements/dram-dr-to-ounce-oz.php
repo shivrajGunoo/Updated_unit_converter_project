@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Ounce Converter (dr to oz)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Ounce (oz) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 1771845.195 µg | Example: 0.000000564383 dr ≈ 1 µg</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 1771845.195 µg | Example: 0.000000564383 dr ≈ 1 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Pound to Tonne Converter (lb to metric ton)_ABOUT</h3>
                         <p>This page helps you convert Pound (lb) to Tonne (metric ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 st ≈ 17.013889 lb t | Example: 3 st ≈ 51.041667 lb t</p>
+<!--<p><strong>Formula:</strong> 1 st ≈ 17.013889 lb t | Example: 3 st ≈ 51.041667 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

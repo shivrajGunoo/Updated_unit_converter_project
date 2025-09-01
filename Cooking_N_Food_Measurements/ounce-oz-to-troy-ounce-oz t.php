@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Ounce to Troy ounce Converter (oz to oz t)_ABOUT</h3>
                         <p>This page helps you convert Ounce (oz) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 lb = 453.59237 g | Example: 1 × 453.59237 = 453.59237 g</p>
+<!--<p><strong>Formula:</strong> 1 lb = 453.59237 g | Example: 1 × 453.59237 = 453.59237 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to Troy ounce Converter (Japanese to oz t)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 0.001 kan | Example: 1000 momme = 1 kan</p>
+<!--<p><strong>Formula:</strong> 1 momme = 0.001 kan | Example: 1000 momme = 1 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

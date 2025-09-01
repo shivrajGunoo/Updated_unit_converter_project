@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Kan Converter (g to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 gr ≈ 0.000173611 lb t | Example: 5760 gr ≈ 1 lb t</p>
+<!--<p><strong>Formula:</strong> 1 gr ≈ 0.000173611 lb t | Example: 5760 gr ≈ 1 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

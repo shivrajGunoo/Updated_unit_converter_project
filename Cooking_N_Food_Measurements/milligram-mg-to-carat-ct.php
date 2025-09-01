@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Carat Converter (mg to ct)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Carat (ct) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.0000000321507 oz t | Example: 31103476.8 µg ≈ 1 oz t</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.0000000321507 oz t | Example: 31103476.8 µg ≈ 1 oz t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

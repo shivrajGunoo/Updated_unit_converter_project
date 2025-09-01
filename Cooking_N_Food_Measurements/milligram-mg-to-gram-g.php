@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to Gram Converter (mg to g)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.00000000000110231 short ton | Example: 907184740000 µg ≈ 1 short ton</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.00000000000110231 short ton | Example: 907184740000 µg ≈ 1 short ton</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

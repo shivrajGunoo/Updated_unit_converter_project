@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Milligram to US Ton Converter (mg to short ton)_ABOUT</h3>
                         <p>This page helps you convert Milligram (mg) to US Ton (short ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 mg = 0.00000220462262 lb | Example: 1 × 0.00000220462262 = 0.00000220462262 lb</p>
+<!--<p><strong>Formula:</strong> 1 mg = 0.00000220462262 lb | Example: 1 × 0.00000220462262 = 0.00000220462262 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

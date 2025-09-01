@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Dram to Milligram Converter (dr to mg)_ABOUT</h3>
                         <p>This page helps you convert Dram (dr) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 dr ≈ 0.000472492 kan | Example: 2116.44 dr ≈ 1 kan</p>
+<!--<p><strong>Formula:</strong> 1 dr ≈ 0.000472492 kan | Example: 2116.44 dr ≈ 1 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to UK Ton Converter (kg to long ton)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg ≈ 2.679229 lb t | Example: 3 kg ≈ 8.037687 lb t</p>
+<!--<p><strong>Formula:</strong> 1 kg ≈ 2.679229 lb t | Example: 3 kg ≈ 8.037687 lb t</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

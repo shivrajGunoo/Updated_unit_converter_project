@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>US Ton to UK Ton Converter (short ton to long ton)_ABOUT</h3>
                         <p>This page helps you convert US Ton (short ton) to UK Ton (long ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 US ton = 2000 lb | Example: 1 × 2000 = 2000 lb</p>
+<!--<p><strong>Formula:</strong> 1 US ton = 2000 lb | Example: 1 × 2000 = 2000 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

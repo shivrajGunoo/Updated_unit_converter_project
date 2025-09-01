@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Troy ounce to Microgram Converter (oz t to µg)_ABOUT</h3>
                         <p>This page helps you convert Troy ounce (oz t) to Microgram (µg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 oz t = 0.0685714286 lb | Example: 1 × 0.0685714286 = 0.0685714286 lb</p>
+<!--<p><strong>Formula:</strong> 1 oz t = 0.0685714286 lb | Example: 1 × 0.0685714286 = 0.0685714286 lb</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

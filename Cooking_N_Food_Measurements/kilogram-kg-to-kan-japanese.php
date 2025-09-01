@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Kan Converter (kg to Japanese)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Kan (Japanese) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg = 1000000000 kg | Example: 0.0.000001 kg = 1000 µg</p>
+<!--<p><strong>Formula:</strong> 1 kg = 1000000000 kg | Example: 0.0.000001 kg = 1000 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

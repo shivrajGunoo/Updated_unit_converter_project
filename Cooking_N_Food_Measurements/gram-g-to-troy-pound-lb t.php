@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Troy pound Converter (g to lb t)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Troy pound (lb t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 57871.3431 gr | Example: 0.0000172797 kan ≈ 1 gr</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 57871.3431 gr | Example: 0.0000172797 kan ≈ 1 gr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

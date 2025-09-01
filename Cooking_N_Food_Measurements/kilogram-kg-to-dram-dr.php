@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Dram Converter (kg to dr)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Dram (dr) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg = 1000 g | Example: 1 × 1000 = 1000 g</p>
+<!--<p><strong>Formula:</strong> 1 kg = 1000 g | Example: 1 × 1000 = 1000 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

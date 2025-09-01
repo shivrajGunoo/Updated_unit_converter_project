@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Momme to US Ton Converter (Japanese to short ton)_ABOUT</h3>
                         <p>This page helps you convert Momme (Japanese) to US Ton (short ton) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 momme = 3750 mg | Example: 0.000266667 momme ≈ 1 mg</p>
+<!--<p><strong>Formula:</strong> 1 momme = 3750 mg | Example: 0.000266667 momme ≈ 1 mg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

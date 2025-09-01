@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Kilogram to Gram Converter (kg to g)_ABOUT</h3>
                         <p>This page helps you convert Kilogram (kg) to Gram (g) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kg ≈ 0.266667 kan (1 kan = 3.75 kg) | Example: 7.5 kg = 2 kan</p>
+<!--<p><strong>Formula:</strong> 1 kg ≈ 0.266667 kan (1 kan = 3.75 kg) | Example: 7.5 kg = 2 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

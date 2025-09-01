@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Gram to Troy ounce Converter (g to oz t)_ABOUT</h3>
                         <p>This page helps you convert Gram (g) to Troy ounce (oz t) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 kan ≈ 2116.43772 dr | Example: 0.000472492 kan ≈ 1 dr</p>
+<!--<p><strong>Formula:</strong> 1 kan ≈ 2116.43772 dr | Example: 0.000472492 kan ≈ 1 dr</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

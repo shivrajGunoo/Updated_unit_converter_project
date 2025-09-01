@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Microgram to Milligram Converter (µg to mg)_ABOUT</h3>
                         <p>This page helps you convert Microgram (µg) to Milligram (mg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 µg ≈ 0.000000000266667 kan | Example: 3750000000 µg ≈ 1 kan</p>
+<!--<p><strong>Formula:</strong> 1 µg ≈ 0.000000000266667 kan | Example: 3750000000 µg ≈ 1 kan</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

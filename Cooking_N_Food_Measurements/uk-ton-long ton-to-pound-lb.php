@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>UK Ton to Pound Converter (long ton to lb)_ABOUT</h3>
                         <p>This page helps you convert UK Ton (long ton) to Pound (lb) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 UK ton = 1016046.91 g | Example: 1 × 1016046.91 = 1016046.91 g</p>
+<!--<p><strong>Formula:</strong> 1 UK ton = 1016046.91 g | Example: 1 × 1016046.91 = 1016046.91 g</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+

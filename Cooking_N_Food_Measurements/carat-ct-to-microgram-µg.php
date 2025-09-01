@@ -40,7 +40,7 @@
                     <div class="about-section">
                         <h3>Carat to Microgram Converter (ct to µg)_ABOUT</h3>
                         <p>This page helps you convert Carat (ct) to Microgram (µg) using accurate and verified formulas and conversion examples.</p>
-                        <p><strong>Formula:</strong> 1 ct = 200000 µg | Example: 0.01 ct = 2000 µg</p>
+<!--<p><strong>Formula:</strong> 1 ct = 200000 µg | Example: 0.01 ct = 2000 µg</p>-->
                         <!--<p><strong>Example:</strong> ##EXAMPLE</p>!-->
                     </div>
                 </div>
@@ -97,3 +97,4 @@
     <?php include '../footer.php'; ?>
 </body>
 </html>
+
