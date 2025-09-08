@@ -8,7 +8,7 @@
     <meta name="description" content="Free online unit converter for length, weight, temperature, area, volume, and time. Convert between units instantly with our easy-to-use tool." />
     <meta name="keywords" content="unit converter, measurement converter, length converter, temperature converter, weight converter, area converter, volume converter, time converter" />
     <title>Universal Unit Converter | Convert Length, Weight, Temperature & More</title>
-    <link rel="stylesheet" href="/unitconverter/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <header>

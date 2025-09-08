@@ -57,16 +57,6 @@
 
       <div class="freeze_div">
         <aside>
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-6936401689797405"
-               data-ad-slot="1114453615"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </aside>
-
-        <aside>
           <?php include_once 'drawer_menu.php'; ?>
         </aside>
       </div>
